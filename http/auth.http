@@ -1,0 +1,47 @@
+@baseUrl = http://localhost:8000/api
+@authToken = {{login.response.body.access}}
+
+### Register a new user
+# @name register
+POST {{baseUrl}}/auth/register/
+Content-Type: application/json
+
+{
+    "username": "testuser",
+    "email": "test@example.com",
+    "password": "testpassword123"
+}
+
+### Login to get access token
+# @name login
+POST {{baseUrl}}/auth/token/
+Content-Type: application/json
+
+{
+    "username": "testuser",
+    "password": "testpassword123"
+}
+
+### Refresh token
+# @name refresh
+POST {{baseUrl}}/auth/token/refresh/
+Content-Type: application/json
+
+{
+    "refresh": "{{login.response.body.refresh}}"
+}
+
+### Logout
+# @name logout
+POST {{baseUrl}}/auth/logout/
+Content-Type: application/json
+Authorization: Bearer {{authToken}}
+
+{
+    "refresh": "{{login.response.body.refresh}}"
+}
+
+### Test authenticated request (example)
+GET {{baseUrl}}/tasks/
+Authorization: Bearer {{authToken}}
+Content-Type: application/json

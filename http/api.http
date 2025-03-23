@@ -1,0 +1,38 @@
+@baseUrl = http://localhost:8000/api
+
+### Get all tasks
+GET {{baseUrl}}/tasks/
+
+### Get a specific task
+GET {{baseUrl}}/tasks/1/
+
+### Create a new task
+POST {{baseUrl}}/tasks/
+Content-Type: application/json
+
+{
+    "title": "Sample Task",
+    "description": "This is a sample task description",
+    "completed": false
+}
+
+### Update a task
+PUT {{baseUrl}}/tasks/1/
+Content-Type: application/json
+
+{
+    "title": "Updated Task",
+    "description": "This is an updated task description",
+    "completed": true
+}
+
+### Partially update a task
+PATCH {{baseUrl}}/tasks/1/
+Content-Type: application/json
+
+{
+    "completed": true
+}
+
+### Delete a task
+DELETE {{baseUrl}}/tasks/1/

@@ -1,0 +1,30 @@
+[project]
+name = "django-vercel-boilerplate"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "alex-candido", email = "alex.candido.tec@gmail.com"},
+]
+dependencies = [
+    "django>=5.1.7", 
+    "djangorestframework>=3.15.2", 
+    "markdown>=3.7", 
+    "django-filter>=25.1", 
+    "psycopg2-binary>=2.9.10", 
+    "dj-database-url>=2.3.0", 
+    "python-dotenv>=1.0.1", 
+    "pydantic-settings>=2.8.1", 
+    "pydantic>=2.10.6", 
+    "django-extensions>=3.2.3", 
+    "djangorestframework-simplejwt>=5.5.0"]
+
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm]
+distribution = false
+
+[tool.pdm.scripts]
+manage="python ./src/manage.py"
+server = "pdm run manage runserver 0.0.0.0:8000"

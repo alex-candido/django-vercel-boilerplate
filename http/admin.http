@@ -1,0 +1,34 @@
+@baseUrl = http://localhost:8000/admin
+@csrftoken = {{login.response.headers.set-cookie.csrftoken}}
+@sessionid = {{login.response.headers.set-cookie.sessionid}}
+
+### Get CSRF token and session cookie
+# @name login
+GET {{baseUrl}}/login/
+
+### Login to admin panel
+POST {{baseUrl}}/login/
+Content-Type: application/x-www-form-urlencoded
+Cookie: csrftoken={{csrftoken}}; sessionid={{sessionid}}
+
+username=admin&password=admin&csrfmiddlewaretoken={{csrftoken}}
+
+### Access admin dashboard
+GET {{baseUrl}}/
+Cookie: csrftoken={{csrftoken}}; sessionid={{sessionid}}
+
+### Access tasks in admin panel
+GET {{baseUrl}}/tasks/task/
+Cookie: csrftoken={{csrftoken}}; sessionid={{sessionid}}
+
+### Add a new task through admin
+GET {{baseUrl}}/tasks/task/add/
+Cookie: csrftoken={{csrftoken}}; sessionid={{sessionid}}
+
+### Edit task in admin panel
+GET {{baseUrl}}/tasks/task/1/change/
+Cookie: csrftoken={{csrftoken}}; sessionid={{sessionid}}
+
+### Delete task in admin panel
+GET {{baseUrl}}/tasks/task/1/delete/
+Cookie: csrftoken={{csrftoken}}; sessionid={{sessionid}}
