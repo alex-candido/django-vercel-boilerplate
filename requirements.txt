@@ -5,13 +5,16 @@ annotated-types==0.7.0
 asgiref==3.8.1
 dj-database-url==2.3.0
 django==5.1.7
+django-extensions==3.2.3
 django-filter==25.1
 djangorestframework==3.15.2
+djangorestframework-simplejwt==5.5.0
 markdown==3.7
 psycopg2-binary==2.9.10
 pydantic==2.10.6
 pydantic-core==2.27.2
 pydantic-settings==2.8.1
+pyjwt==2.9.0
 python-dotenv==1.0.1
 sqlparse==0.5.3
 typing-extensions==4.12.2
