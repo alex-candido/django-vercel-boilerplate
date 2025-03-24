@@ -16,7 +16,9 @@ dependencies = [
     "pydantic-settings>=2.8.1", 
     "pydantic>=2.10.6", 
     "django-extensions>=3.2.3", 
-    "djangorestframework-simplejwt>=5.5.0"]
+    "djangorestframework-simplejwt>=5.5.0", 
+    "whitenoise>=6.9.0", 
+    "django-cors-headers>=4.7.0"]
 
 requires-python = "==3.10.*"
 readme = "README.md"

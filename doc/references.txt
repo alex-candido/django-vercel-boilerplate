@@ -1,0 +1,9 @@
+https://github.dev/maesterzak/DjangoVercel/blob/main/main.py
+https://github.dev/sandeep-shaw10/django-vercel
+https://github.dev/NagiPragalathan/vercel_deployment
+https://github.dev/leele2/timesheet-xlsx-to-ics
+https://github.dev/arvind-4/Django-with-Vercel/blob/main/build.sh
+https://github.dev/Joshyvibe/django-deploy-vercel/blob/master/test_project/settings.py
+https://github.dev/nflnsr/django-tailwind-postgresql-vercel/tree/main/todolist
+https://github.dev/codewithmuh/backend_course
+https://github.dev/mshnowshad/Todo-app-Django

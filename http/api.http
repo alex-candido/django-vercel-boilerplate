@@ -1,4 +1,4 @@
-@baseUrl = http://localhost:8000/api
+@baseUrl = https://django-vercel-boilerplate-4rbau3kid-alexcandidos-projects.vercel.app/api
 
 ### Get all tasks
 GET {{baseUrl}}/tasks/

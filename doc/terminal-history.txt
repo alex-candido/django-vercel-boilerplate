@@ -1,0 +1,3029 @@
+    1  rm ~/.zsh_history_bad
+    2  conda deactivate
+    3  sudo ntfsfix -b -d /dev/sda2
+    4  rsync -a /media/alex-cndd/SSD\ SATA/development Documentos/
+    5  rsync -a --progress /media/alex-cndd/SSD\ SATA/development Documentos/
+    6  sudo apt install parallel\n: 1737775768:0;find /media/alex-cndd/SSD\ SATA/development/ -type f | parallel -j 4 rsync -a --no-compress {} /caminho/destino/\n: 1737775790:0;ll
+    7  clear
+    8  find /media/alex-cndd/SSD\ SATA/development/ -type f | parallel -j 4 rsync -a --no-compress {} Documentos\n: 1737775924:0;rsync -a /media/alex-cndd/SSD\ SATA/development Documentos\n: 1737776092:0;rsync -aL /media/alex-cndd/SSD\ SATA/development Documentos/
+    9  conda deactivate
+   10  htop
+   11  conda deactivate
+   12  clear
+   13  rsync -aL /media/alex-cndd/SSD\ SATA/development Documentos/\n: 1737776724:0;conda deactivate
+   14  rsync -aL /media/alex-cndd/SSD\ SATA/development Documentos\n: 1737777221:0;rsync -aL --ignore-missing-args /media/alex-cndd/SSD\ SATA/development Documentos
+   15  df -h\n: 1737777464:0;sudo apt-get clean
+   16  sudo du -sh /* | sort -rh | head -n 10\n: 1737777722:0;df -h\n: 1737781365:0;conda deactivate
+   17  clear
+   18  cd Documentos/development/projects
+   19  code .
+   20  cd ..
+   21  cd projects/backend/ruby-rails/bar-and-pub-finder-admin
+   22  clear
+   23  git pull
+   24  git branch --remotes
+   25  code .
+   26  bundle
+   27  clear
+   28  docker ps
+   29  ./bin/dev
+   30  cd ..
+   31  conda deactivate
+   32  history | grep zsh
+   33  history | grep source
+   34  cd ~
+   35  mv .zsh_history .zsh_history_bad
+   36  fc -R .zsh_history
+   37  rm ~/.zsh_history_bad
+   38  conda deactivate
+   39  rsync -aL /media/alex-cndd/SSD\ SATA/development/repository Documentos/development\n
+   40  conda deactivate
+   41  rsync -aL /media/alex-cndd/SSD\ SATA/development/repository Documentos/development\n
+   42  sudo du -ah / | sort -rh | head -n 10\n
+   43  conda deactivate
+   44  cd Documentos/development/projects
+   45  code .
+   46  cd ..
+   47  cd repository
+   48  code .
+   49  clear
+   50  cd Documentos/development/projects/backend/ruby-rails/bar-and-pub-finder-admin
+   51  clear
+   52  code .
+   53  bundle
+   54  ./bin/dev
+   55  docke ps
+   56  docker ps
+   57  bin/rails credentials:edit
+   58  EDITOR=nano bin/rails credentials:edit
+   59  rails credentials:edit
+   60  EDITOR=nano bin/rails credentials:edit
+   61  EDITOR="code --wait" rails credentials:edit
+   62  rails credentials:edit --new-key\n
+   63  bundle
+   64  ./bin/dev
+   65  bin/rails tmp:cache:clear\n
+   66  ./bin/dev
+   67  rails credentials:edit\n
+   68  EDITOR="code --wait" rails credentials:edit
+   69  rails credentials:edit --new-key\n
+   70  clear
+   71  b./bin/dev
+   72  ./bin/dev
+   73  EDITOR="code --wait" bin/rails credentials:edit\n
+   74  rm config/credentials.yml.enc\nrm config/master.key\nEDITOR="code --wait" bin/rails credentials:edit\n
+   75  EDITOR="code --wait" bin/rails credentials:edit
+   76  EDITOR="nano --wait" bin/rails credentials:edit
+   77  EDITOR=nano bin/rails credentials:edit
+   78  rails secret
+   79  rails db:reset
+   80  docker ps
+   81  rails db:drop
+   82  docker stop 4814af33bbea
+   83  docker delete 4814af33bbea
+   84  docker remove 4814af33bbea
+   85  docker stop 466ca27a9c00
+   86  docker remove 466ca27a9c00
+   87  dockerps
+   88  docker ps
+   89  docker-compose up -d
+   90  ./bin/dev
+   91  bun add postcss
+   92  nvm current
+   93  ./bin/dev
+   94  bin/rails assets:precompile
+   95  ./bin/dev
+   96  bun add postcss-import
+   97  ./bin/dev
+   98  bundle
+   99  ./bin/rails css:install:[tailwind]
+  100  rails css:install:[tailwind]
+  101  rails css:install:[tailwind|postcss]
+  102  ./bin/rails css:install:[tailwind|postcss]
+  103  ./bin/rails css:install:tailwind
+  104  ./bin/rails css:install:tailwind:postcss
+  105  ./bin/rails css:install:[tailwind|postcss]
+  106  ./bin/rails css:install:tailwind
+  107  git checkout .
+  108  ./bin/dev
+  109  bundle
+  110  rm -rf config/tailwind.css\n
+  111  rm -rf config/tailwind.config.js\n
+  112  bundle
+  113  rails tmp:clear\nrails assets:clobber\nrails assets:precompile\n
+  114  clear
+  115  bin/rails credentials:edit
+  116  EDITOR=nano bin/rails credentials:edit
+  117  docker ps
+  118  docker remove 25faf01d6e63
+  119  docker stop 25faf01d6e63
+  120  docker remove 25faf01d6e63
+  121  docker stop c8078094da31
+  122  docker remove c8078094da31
+  123  clear
+  124  rm config/credentials.yml.enc config/master.key\nbin/rails credentials:edit\n
+  125  EDITOR=nano bin/rails credentials:edit
+  126  rails docker-compose.yml
+  127  rails secret
+  128  clear
+  129  ./bin/rails css:install:tailwind
+  130  bun i
+  131  clear
+  132  ./bin/rails css:install:tailwind
+  133  bundle
+  134  ./bin/rails css:install:tailwind
+  135  bundle
+  136  clear
+  137  ./bin/rails css:install:tailwind
+  138  ./bin/rails css:install:postcss
+  139  clear
+  140  bundle
+  141  bun i
+  142  docker-compose up -d
+  143  docker-compose up -d --build
+  144  ./bin/dev
+  145  tree app/assets
+  146  ./bin/dev
+  147  tree app/assets
+  148  ./bin/dev
+  149  ./bin/rails css:install:tailwind
+  150  ./bin/rails css:install:tailwind:postcss
+  151  ./bin/rails css:install:tailwind
+  152  ./bin/dev
+  153  ./bin/rails css:install:postcss
+  154  clear
+  155  ./bin/dev
+  156  cd ..
+  157  ./bin/rails css:install:[tailwind|bootstrap|bulma|postcss|sass]
+  158  rails css:install:[tailwind|bootstrap|bulma|postcss|sass]
+  159  ./bin/rails css:install:tailwind
+  160  ./bin/dev
+  161  ./bin/rails css:install:tailwind
+  162  ./bin/rails css:install:postcss
+  163  ./bin/dev
+  164  ./bin/rails css:install:tailwind
+  165  ./bin/dev
+  166  cd bar-and-pub-finder-admin/
+  167  npx tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css --watch\n
+  168  bun run tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css --watch\n
+  169  tree app/assets
+  170  bun add nodemon
+  171  ./bin/dev
+  172  ./bin/dev
+  173  bun add postcss postcss-flexbugs-fixes postcss-import postcss-nested postcss-preset-env
+  174  ./bin/dev
+  175  clear
+  176  git add .
+  177  git status
+  178  git commit -m 'instalado e configurado a gem cssbundling-rails com tailwind e postcss'
+  179  git push
+  180  clear
+  181  conda deactivate
+  182  clear
+  183  cd Documentos/development/projects/
+  184  code .
+  185  cd /media/alex-cndd
+  186  ll
+  187  cd SSD\ SATA/development/repository
+  188  code .
+  189  cd ..
+  190  cd /
+  191  cd home/alex-cndd/Documentos/development/projects/backend/ruby-rails/bar-and-pub-finder-admin
+  192  clear
+  193  conda deactivate
+  194  clear
+  195  code .
+  196  docker ps
+  197  ./bin/dev
+  198  code .
+  199  git log --oneline
+  200  git reset 8e1e7b9
+  201  git add .
+  202  git log --oneline
+  203  git commit -m 'instalado e configurado a gem cssbundling-rails com tailwind e postcss'
+  204  git push --force-with-lease
+  205  git log --oneline
+  206  bun add preline
+  207  bin/importmap pin @preline\n
+  208  bin/importmap pin preline\n
+  209  bun i
+  210  ./bin/dev
+  211  clear
+  212  ./bin/dev
+  213  cclear
+  214  clear
+  215  ./bin/dev
+  216  code ,
+  217  code .
+  218  clear
+  219  ./bin/dev
+  220  bin/rails assets:precompile\n
+  221  clear
+  222  bin/rails assets:precompile\n
+  223  ./bin/dev\n
+  224  clear
+  225  ./bin/dev\n
+  226  ./bin/rails tailwindcss:install
+  227  clear
+  228  ./bin/dev\n
+  229  clear
+  230  ./bin/dev\n
+  231  clear
+  232  ./bin/dev\n
+  233  tree app/views/layouts
+  234  clear
+  235  tree app/views/layouts
+  236  ./bin/dev
+  237  clear
+  238  ./bin/dev
+  239  clear
+  240  ./bin/dev
+  241  clear
+  242  ./bin/dev
+  243  clear
+  244  ./bin/dev
+  245  clear
+  246  ./bin/dev
+  247  conda deactivate
+  248  clear
+  249  cd Documentos/development
+  250  code .
+  251  cd projects/backend/ruby-rails/bar-and-pub-finder-admin
+  252  clear
+  253  docker ps
+  254  ./bin/dev
+  255  code .
+  256  ./bin/dev
+  257  cd ..
+  258  cd bar-pub-finder-admin-feature-temp
+  259  code .
+  260  ./bin/dev
+  261  cd ..
+  262  cd bar-and-pub-finder-admin
+  263  ./bin/dev
+  264  clear
+  265  ./bin/dev
+  266  clear
+  267  ./bin/dev
+  268  clear
+  269  ./bin/dev
+  270  clear
+  271  ./bin/dev
+  272  clear
+  273  ./bin/dev
+  274  clear
+  275  ./bin/dev
+  276  clear
+  277  ./bin/dev
+  278  clear
+  279  ./bin/dev
+  280  clear
+  281  ./bin/dev
+  282  cleaer
+  283  clear
+  284  ./bin/dev
+  285  clear
+  286  ./bin/dev
+  287  clear
+  288  ./bin/dev
+  289  clear
+  290  ./bin/dev
+  291  clear
+  292  ./bin/dev
+  293  clear
+  294  git add .
+  295  git status
+  296  git log --oneline
+  297  git commit -m 'instalado e configurado a gem cssbundling-rails com tailwind e postcss'
+  298  git log --oneline
+  299  git reset 8e1e7b9
+  300  git commit -m 'instalado e configurado a gem cssbundling-rails com tailwind e postcss'
+  301  git add .
+  302  git commit -m 'instalado e configurado a gem cssbundling-rails com tailwind e postcss'
+  303  clear
+  304  git log --oneline
+  305  git push --force-with-lease
+  306  ./bin/dev
+  307  conda deactivate
+  308  cd Documentos/development
+  309  clear
+  310  code .
+  311  cd ..
+  312  cd development/projects/backend/ruby-rails/bar-and-pub-finder-admin
+  313  cclear
+  314  clear
+  315  conda deactivate
+  316  clear
+  317  code .
+  318  curl https:\\www.google.com.br
+  319  curl -h https:\\www.google.com.br
+  320  curl https:\\www.google.com.br
+  321  curl www.google.com.br
+  322  curl www.google.com.br -h
+  323  curl -h www.google.com.br
+  324  clear
+  325  ./bin/dev
+  326  git log --oneline
+  327  git commit -m 'instalado e configurado a gem cssbundling-rails com tailwind, postcss e preline' --amend
+  328  git log --oneline
+  329  git push --force-with-lease
+  330  git log --oneline
+  331  ./bin/dev
+  332  bun add @tailwindcss/cli
+  333  clear
+  334  bun add @tailwindcss/cli
+  335  ./bin/dev
+  336  clear
+  337  ./bin/dev
+  338  bun i
+  339  clear
+  340  ./bin/dev
+  341  bbun i
+  342  bun i
+  343  ./bin/dev
+  344  gitclear
+  345  clear
+  346  git checkout .
+  347  bun i
+  348  clear
+  349  ./bin/dev
+  350  bun add @tailwindcss/forms
+  351  ./bin/dev
+  352  clear
+  353  bun i
+  354  ./bin/dev
+  355  clear
+  356  ./bin/dev
+  357  bun i
+  358  ./bin/dev
+  359  clear
+  360  ./bin/dev
+  361  clear
+  362  ./bin/dev
+  363  clear
+  364  ./bin/dev
+  365  clear
+  366  ./bin/dev
+  367  bun add @tailwindcss/postcss
+  368  clear
+  369  ./bin/dev
+  370  docker ps
+  371  clear
+  372  bun i
+  373  ./bin/dev
+  374  buni
+  375  bun i
+  376  clear
+  377  ./bin/dev
+  378  docker ps
+  379  docker-compose up -d --build
+  380  clear
+  381  bundle
+  382  ./bin/dev
+  383  docker ps
+  384  clear
+  385  ./bin/dev
+  386  clear
+  387  ./bin/dev
+  388  clear
+  389  ./bin/dev
+  390  clear
+  391  ./bin/dev
+  392  cleare
+  393  clear
+  394  ./bin/dev
+  395  clear
+  396  ./bin/dev
+  397  clear
+  398  ./bin/dev
+  399  cd ..
+  400  cd fb-online/palantir
+  401  code .
+  402  cd ..
+  403  cd hiperlinks
+  404  code .
+  405  cd ..
+  406  cd palantir
+  407  code .
+  408  clear
+  409  cd palantir
+  410  ./bin/dev
+  411  bundle
+  412  rvm use 3.3.6
+  413  rvm current ?
+  414  rvm current
+  415  bundle
+  416  rvm install 3.3.6\n
+  417  rvm use 3.3.6
+  418  rvm use ruby-3.3.6\n
+  419  rvm install ruby-3.3.6\n
+  420  export PATH="$HOME/.rvm/gems/ruby-3.3.6/bin:$PATH"\n
+  421  source ~/.bashrc  # ou ~/.zshrc, dependendo do shell\n
+  422  source ~/.bashrc\n
+  423  conda deactivate
+  424  clear
+  425  bundle
+  426  \curl -sSL https://get.rvm.io | bash -s stable\nsource ~/.rvm/scripts/rvm\n
+  427  bundle install\n
+  428  bunddle
+  429  bundle
+  430  conda deactivate
+  431  cd Documentos/development/projects/backend/ruby-rails/bar-and-pub-finder-admin
+  432  bundle
+  433  gpg --keyserver keyserver.ubuntu.com --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB\n
+  434  \curl -sSL https://get.rvm.io | bash\n
+  435  \curl -sSL https://get.rvm.io -o rvm.sh
+  436  nano rvm.sh
+  437  rvm list known
+  438  clear
+  439  bundle
+  440  source ~/.rvm/scripts/rvm
+  441  bundle
+  442  bundle install
+  443  rvm list
+  444  rvm use ruby-3.3.6\n
+  445  bundle
+  446  conda deactivate
+  447  rvm use 3.3.6
+  448  bundle
+  449  gem install bundler
+  450  bundle -v
+  451  source ~/.rvm/scripts/rvm
+  452  export PATH="$PATH:$HOME/.rvm/bin"
+  453  source ~/.bashrc
+  454  sudo apt-get update
+  455  clear
+  456  bundle
+  457  ./bin/dev
+  458  bun add lucide
+  459  bun add lucide-static
+  460  bun remove static
+  461  bun remove lucid
+  462  bun remove lucide
+  463  bbun add @preline/theme-switch
+  464  bun add @preline/theme-switch
+  465  clear
+  466  ./bin/dev
+  467  clear
+  468  ./bin/dev
+  469  git add .
+  470  git status
+  471  git commit -m 'criado estrutura inicial de partials'
+  472  git push
+  473  conda deactivate
+  474  clear
+  475  cd Documentos/development/projects
+  476  code .
+  477  cd bar-and-pub-finder-admin
+  478  cd backend/ruby-rails/bar-and-pub-finder-admin
+  479  clear
+  480  git fetch --all
+  481  git checkout -
+  482  git branch -d feature/layout-admin
+  483  git branch -D feature/layout-admin
+  484  clear
+  485  git checkout feature/layout-admin
+  486  git pull
+  487  clear
+  488  code .
+  489  rvm use 3.3.6
+  490  clear
+  491  bundle
+  492  clear
+  493  nvm current
+  494  bun i
+  495  clear
+  496  docker ps
+  497  ./bin/dev
+  498  docker ps
+  499  sudo apt-get update
+  500  ./bin/dev
+  501  rails db:reset
+  502  EDITOR=nano bin/rails credentials:edit
+  503  rm config/credentials.yml.enc config/master.key
+  504  EDITOR=nano bin/rails credentials:edit
+  505  rails secret
+  506  clear
+  507  rails db:reset
+  508  docker ps
+  509  rails db:drop
+  510  docker stop 824dd39722db
+  511  docker delete  824dd39722db
+  512  docker dremove 824dd39722db
+  513  docker remove 824dd39722db
+  514  docker stop 34dc56b25334
+  515  docker remove 34dc56b25334
+  516  docker-compose up -d --build
+  517  rails db:reset
+  518  git log --oneline
+  519  git pull
+  520  git branch --remotes
+  521  git checkout feature/users
+  522  git checkout .
+  523  git checkout feature/users
+  524  clear
+  525  git pull
+  526  clear
+  527  .bundle
+  528  bundle
+  529  bun i
+  530  clear
+  531  rails db:seed
+  532  rm config/credentials.yml.enc config/master.key
+  533  EDITOR=nano bin/rails credentials:edit
+  534  rails secret
+  535  rails db:reset
+  536  ./bin/dev
+  537  clear
+  538  ./bin/dev
+  539  clear
+  540  ./bin/dev
+  541  clear
+  542  git add .
+  543  git status
+  544  conda deactivate
+  545  cd Documentos/development/projects/
+  546  clear
+  547  code .
+  548  cd backend/ruby-rails/bar-and-pub-finder-admin
+  549  cleare
+  550  clear
+  551  conda deactivate
+  552  clear
+  553  code .
+  554  rvm use 3.3.6
+  555  clear
+  556  rvm use 3.3.6
+  557  docker ps
+  558  ./bin/dev
+  559  rails route
+  560  rails routes
+  561  rails routes | grep egistration
+  562  clear
+  563  rails routes | grep egistration
+  564  ./bin/dev
+  565  clear
+  566  git log --oneline
+  567  git reset 0cbc6b9
+  568  clear
+  569  git add .
+  570  git status
+  571  git commit -m 'criado estrutura layout views de users e devise module'
+  572  git push --force-with-lease
+  573  clear
+  574  git log --oneline
+  575  git add .
+  576  git status
+  577  git commit -m 'criado estrutura layout views de users e devise module' --amend
+  578  git push --force-with-lease
+  579  git log --oneline
+  580  git commit -m 'criado estrutura layout views de users e devise module' --amend
+  581  git push --force-with-lease
+  582  giclear
+  583  clear
+  584  git log --oneline
+  585  git add .
+  586  git commit -m 'criado estrutura layout views de users e devise module' --amend
+  587  git push --force-with-lease
+  588  git log --oneline
+  589  git add .
+  590  git commit -m 'criado estrutura layout views de users e devise module' --amend
+  591  git push --force-with-lease
+  592  git add .
+  593  git commit -m 'criado estrutura layout views de users e devise module' --amend
+  594  git push --force-with-lease
+  595  clear
+  596  conda deactivate
+  597  cd Documentos/development/projects
+  598  clear
+  599  ll
+  600  mkdir int-prog
+  601  cd int-prog
+  602  cd ..
+  603  code .
+  604  cd ..
+  605  cd projects/int-prog
+  606  clear
+  607  code .
+  608  gcc -v
+  609  cd "/home/alex-cndd/Documentos/development/projects/int-prog/" && gcc main.c -o main && "/home/alex-cndd/Documentos/development/projects/int-prog/"main
+  610  git clone git@github.com:alex-candido/engineering-lang-c-project-ifce.git
+  611  conda deactivate
+  612  clear
+  613  tree engineering-lang-c-project-ifce/01-primeira-questao
+  614  cd engineering-lang-c-project-ifce
+  615  cd 01-primeira-questao
+  616  make run
+  617  make
+  618  make clean
+  619  make
+  620  sudo apt install cmake\n
+  621  git clone https://github.com/A-Larsen/tetris.git
+  622  cd tetris
+  623  make
+  624  ./tetris\n
+  625  sudo apt install libsdl2-dev libsdl2-ttf-dev\n
+  626  gcc -g -o tetris tetris.c -I/usr/local/include/SDL2 -lSDL2 -lSDL2_ttf -lm\n
+  627  gcc -g -o tetris tetris.c -I/usr/local/include/SDL2 -lSDL2 -lSDL2_ttf -lmmake\n
+  628  make
+  629  ./tetris\n
+  630  cd ..
+  631  cd georef-tool
+  632  cd ..
+  633  tree georef-tool
+  634  cd georef-tool
+  635  git init
+  636  clear
+  637  code .
+  638  cd ..
+  639  tree georef-tool
+  640  make ./bin/GeorefTool\n
+  641  cd ..
+  642  tree int-prog
+  643  cd int-prog
+  644  tree georef-tool
+  645  make seed\n
+  646  cd georef-tool
+  647  make seed\n
+  648  ls ./bin\n
+  649  make seed\n
+  650  make
+  651  make seed\n
+  652  make
+  653  make\n
+  654  make seed\n
+  655  chmod -R 755 ./bin ./src\n
+  656  gcc -g -o ./bin/GeorefTool ./src/main.c ./src/csv_reader.c ./src/filter_places.c ./src/georef.c -I./include -lm -led\n
+  657  gcc -g -o ./bin/GeorefTool ./appp/main.c ./src/csv_reader.c ./src/filter_places.c ./src/georef.c -I./include -lm -led\n
+  658  gcc -g -o ./bin/GeorefTool ./app/main.c ./src/csv_reader.c ./src/filter_places.c ./src/georef.c -I./include -lm -led\n
+  659  gcc -g -o ./bin/GeorefTool ./apps/main.c ./src/csv_reader.c ./src/filter_places.c ./src/georef.c -I./include -lm -led\n
+  660  gcc -g -o ./bin/GeorefTool ./apps/main.c ./src/csv_reader.c ./src/filter_places.c ./src/georef.c -I./include -lm\n
+  661  make seed
+  662  make clean
+  663  make seed
+  664  chmod +x ./bin/GeorefTool\n
+  665  make seed
+  666  make
+  667  make seed
+  668  make
+  669  make make seed\n
+  670  make seed\n
+  671  make run\n
+  672  make seed\n
+  673  make all\n
+  674  cd Documentos/development/projects
+  675  code .
+  676  cd backend/ruby-rails/bar-and-pub-finder-admin
+  677  cleart
+  678  clear
+  679  conda deactivate
+  680  clear
+  681  conda deactivate
+  682  clear
+  683  code .
+  684  git fetch --all
+  685  git branch --remotes
+  686  git branch -D feature/places
+  687  git checkout feature/places
+  688  clear
+  689  git log --oneline
+  690  git pull
+  691  rvm use 3.3.6
+  692  cleaer
+  693  clear
+  694  docker ś
+  695  docker ps
+  696  bundle
+  697  bun i
+  698  clear
+  699  ./bin/dev
+  700  rm config/credentials.yml.enc config/master.key
+  701  bin/rails credentials:edit
+  702  EDITOR=nano bin/rails credentials:edit
+  703  ./bin/dev
+  704  rails db:migrate
+  705  rails db:reset
+  706  ./bin/dev
+  707  rails db:reset
+  708  ./bin/dev
+  709  clear
+  710  ./bin/dev
+  711  bin/importmap pin @preline/select\n
+  712  ./bin/dev
+  713  rails d component selectInput
+  714  rails c
+  715  cd ..
+  716  cd fb-online
+  717  cd calculadora-enem
+  718  conda deactivate
+  719  git pull
+  720  code .
+  721  git fetch --all
+  722  git checkout main
+  723  git checkout .
+  724  git checkout main
+  725  git rebase --abort
+  726  git checkout main
+  727  clear
+  728  bun i
+  729  rvm use 3.3.6
+  730  docker-compose up -d --build
+  731  ./bin/dev
+  732  conda deactivate
+  733  docker ps
+  734  code .
+  735  rails db:reset
+  736  bundle
+  737  rvm use 3.3.6
+  738  bundle
+  739  rvm list
+  740  ./bin/dev
+  741  docker ps
+  742  psql -h 0.0.0.0 -p 5436 -U calculadora_enem
+  743  clear
+  744  EDITOR=nano bin/rails credentials:edit
+  745  rvm use 3.3.5
+  746  bundle
+  747  git fetch --all
+  748  git checkout -
+  749  git branch -D main
+  750  git checkout main
+  751  clear
+  752  bundle
+  753  sudo apt update
+  754  bundle
+  755  conda deactivate
+  756  cd Documentos/development/projects/backend/ruby-rails/bar-and-pub-finder-admin
+  757  clear
+  758  conda deactivate
+  759  clear
+  760  docker ps
+  761  rvm current
+  762  rvm install ruby-3.3.5\n
+  763  docker images
+  764  bundle
+  765  gem install bundler\n
+  766  bundle install
+  767  clear
+  768  bundle
+  769  rails c
+  770  clear
+  771  ./bin/dev
+  772  clear
+  773  rails db:create
+  774  rails db:reset
+  775  clear
+  776  cd ..
+  777  cd fb-online
+  778  cd calculadora-enem
+  779  clear
+  780  conda deactivate
+  781  clear
+  782  docker ps
+  783  git pull
+  784  code .
+  785  bundle
+  786  bun i
+  787  ./bin/dev
+  788  rails db:reset
+  789  cd ..
+  790  cd backend/ruby-rails/bar-and-pub-finder-admin
+  791  clear
+  792  conda deactivate
+  793  clear
+  794  docker ps
+  795  docker-compose up -d
+  796  docker ps
+  797  rvm current
+  798  ./bin/dev
+  799  code .
+  800  ./bin/dev
+  801  git add.
+  802  git add .
+  803  git status
+  804  git log --oneline
+  805  git commit -m 'criado estrutura layout views de place' --amend
+  806  git push --force-with-lease
+  807  clear
+  808  conda deactivate
+  809  cd Documentos/development/projects
+  810  clear
+  811  code .
+  812  cd  backend/ruby-rails/bar-and-pub-finder-admin
+  813  clear
+  814  conda deactivate
+  815  clear
+  816  docker ps
+  817  rvm current
+  818  ./bin/dev
+  819  code .
+  820  conda deactivate
+  821  sudo ntfsfix -b -d /dev/sda2
+  822  cd Documentos/development/projects
+  823  code ,
+  824  code .
+  825  cd ..
+  826  cd projects/backend/ruby-rails/bar-and-pub-finder-admin
+  827  clear
+  828  git fetch --all
+  829  git checkout feature/dashboard
+  830  git checkout .
+  831  git checkout feature/dashboard
+  832  git pull
+  833  clear
+  834  rvm current
+  835  clear
+  836  bundle
+  837  nvm current
+  838  bun i
+  839  code .
+  840  docker ps
+  841  ./bin/dev
+  842  rm config/credentials.yml.enc config/master.key
+  843  bin/rails credentials:edit\n
+  844  EDITOR=nano bin/rails credentials:edi
+  845  EDITOR=nano bin/rails credentials:edit
+  846  clear
+  847  ./bin/dev
+  848  clear
+  849  ./bin/dev
+  850  rails g controller map index
+  851  conda deactivate
+  852  rails d controller map index
+  853  rails g controller admin::map index
+  854  ./bin/dev
+  855  raois routes
+  856  rails routes | grep dashboard
+  857  cd ..
+  858  cd int-prog
+  859  mkdir temp
+  860  cd temp
+  861  git clone git@github.com:AhsanHaleem/Inventory_Management_System.git
+  862  git clone git@github.com:Akhil09/Store-items-of-an-inventory-using-file-.git
+  863  git clone git@github.com:OmkarKadam2002/Electronic-Gadget-Inventory-Management-System-using-C-programming.git
+  864  git clone git@github.com:zaselalk/C-Inventory-Management-System.git
+  865  git clone https://github.com/EugeneYo/Simple-Inventory-Management-System-With-C
+  866  git clone git@github.com:0xrpj/Inventory-Management-System-in-C.git
+  867  cd ..
+  868  tree engineering-lang-c-project-ifce/01-primeira-questao
+  869  cd ..
+  870  cd int-prog
+  871  mkdir inventory-management-system
+  872  clear
+  873  code .
+  874  cd inventory-management-system
+  875  clear
+  876  code .
+  877  git init
+  878  clear
+  879  git add .
+  880  git status
+  881  git commit -m 'primeiro commit'
+  882  git remote add origin git@github.com:alex-candido/inventory-management-system.git
+  883  git log --oneline
+  884  git config --global user.email "alex.candido.tec@gmail.com"
+  885  git config --global user.name "Alex Candido"
+  886  git log --oneline
+  887  git remote add origin git@github.com:alex-candido/inventory-management-system.git
+  888  git add .
+  889  git status
+  890  git commit -m 'primeiro commit'
+  891  git push -u origin master
+  892  cd ..
+  893  tree engineering-lang-c-project-ifce
+  894  tree inventory-management-system
+  895  git add .
+  896  cd inventory-management-system
+  897  git add .
+  898  git status
+  899  git add .
+  900  git commit -m 'primeiro commit' --amend
+  901  git push --force-with-lease
+  902  conda deactivate
+  903  clear
+  904  cd Documentos/development/projects/
+  905  clear
+  906  code .
+  907  cd ..
+  908  cd projects/backend/ruby-rails/bar-and-pub-finder-admin
+  909  clear
+  910  git fetch --all
+  911  git checkout feature/map
+  912  code .
+  913  git checkout .
+  914  git checkout feature/map
+  915  clear
+  916  git clear --force
+  917  git clear
+  918  git checkout feature/map
+  919  clear
+  920  conda deactivate
+  921  clear
+  922  rvm current
+  923  bundle
+  924  bun i
+  925  clear
+  926  ./bin/dev
+  927  bun remove react-leaflet-cluster
+  928  tree app/views
+  929  conda deactivate
+  930  cd Documentos/development/projects
+  931  code .
+  932  cd int-prog
+  933  cd inventory-management-system
+  934  clear
+  935  code .
+  936  cd ..
+  937  tree inventory-management-system
+  938  cd inventory-management-system
+  939  make libed
+  940  make myapps
+  941  make run
+  942  code .
+  943  cd ..
+  944  ccd ..
+  945  cd ..
+  946  code .
+  947  cd int-prog/inventory-management-system
+  948  clear
+  949  conda deactivate
+  950  clear
+  951  code .
+  952  make clean
+  953  make clean_apps
+  954  .PHONY
+  955  make .PHONY
+  956  clear
+  957  git fetch --all
+  958  git stash
+  959  git checkout feature/staging
+  960  git checkout -b feature/staging
+  961  clear
+  962  git stash pop
+  963  clear
+  964  git add .
+  965  git status
+  966  git log --oneline
+  967  git commit -m 'adicionado estrutura inicial branch de homologação'
+  968  git push
+  969  it push --set-upstream origin feature/staging
+  970  git push --set-upstream origin feature/staging
+  971  git add .
+  972  git commit -m 'adicionado estrutura inicial branch de homologação' --amend
+  973  git push --force-with-lease
+  974  clear
+  975  cd ..
+  976  tree inventory-management-system
+  977  clear
+  978  cd inventory-management-system
+  979  clear
+  980  make libed
+  981  make myapps
+  982  clear
+  983  make myapps
+  984  clear
+  985  make libed
+  986  make clear
+  987  make clean
+  988  make clean_apps
+  989  make libed
+  990  make myapps
+  991  make clean_apps
+  992  make myapps
+  993  make run
+  994  make clean_apps
+  995  make myapps
+  996  make run
+  997  git add .
+  998  git status
+  999  git checkout -b feature/product
+ 1000  git add .
+ 1001  git status
+ 1002  git commit -m 'adicionado estrutura provisoria crud'
+ 1003  gclear
+ 1004  git push
+ 1005  git push --set-upstream origin feature/product
+ 1006  conda deactivate
+ 1007  cd Documentos/development/projects
+ 1008  clear
+ 1009  code .
+ 1010  cd ..
+ 1011  cd projects/backend/ruby-rails/bar-and-pub-finder-admin
+ 1012  clear
+ 1013  conda deactivate
+ 1014  clear
+ 1015  code .
+ 1016  git fetch --all
+ 1017  git branch --remotes
+ 1018  git checkout main
+ 1019  git checkout .
+ 1020  git reset
+ 1021  git checkout main
+ 1022  git fetch --all
+ 1023  git checkout feature/map
+ 1024  rvm use 3.3.5
+ 1025  clear
+ 1026  rvm use 3.3.6
+ 1027  git docker ps
+ 1028  docker ps
+ 1029  ./bin/dev
+ 1030  rm config/credentials.yml.enc config/master.key
+ 1031  bin/rails credentials:edit
+ 1032  EDITOR=nano bin/rails credentials:edit
+ 1033  ./bin/dev
+ 1034  git pull
+ 1035  git reset
+ 1036  git pull
+ 1037  clear
+ 1038  ./bin/dev
+ 1039  conda deactivate
+ 1040  clear
+ 1041  cd Documentos/development/projects
+ 1042  code .
+ 1043  cd backend/ruby-rails/bar-and-pub-finder-admin
+ 1044  clear
+ 1045  rvm use 3.3.6
+ 1046  conda deactivate
+ 1047  ./bin/dev
+ 1048  code .
+ 1049  rails consol
+ 1050  rails c
+ 1051  clear
+ 1052  bun add react-leaflet-geosearch
+ 1053  bun add @types/react-leaflet-geosearch
+ 1054  ./bin/dev
+ 1055  bun add leaflet-geosearch
+ 1056  bun remove react-leaflet-geosearch
+ 1057  ./bin/dev
+ 1058  rails c
+ 1059  conda deactivate
+ 1060  cd ..c
+ 1061  cd ..
+ 1062  cd projects/fb-online/gandalf-greyhame
+ 1063  git fetch --all
+ 1064  git branch --remotes
+ 1065  clear
+ 1066  ./bin/dev
+ 1067  git add .
+ 1068  git log --oneline
+ 1069  git commit -m 'todo: adicionado estrutura inicial de input component' --amend
+ 1070  git push --force-with-lease
+ 1071  clear
+ 1072  code .
+ 1073  conda deactivate
+ 1074  cd Documentos/development/projects/
+ 1075  code .
+ 1076  cd backend/ruby-rails/bar-and-pub-finder-admin
+ 1077  clear
+ 1078  conda deactivate
+ 1079  clear
+ 1080  \trvm current
+ 1081  rvm use 3.3.6
+ 1082  code .
+ 1083  git fetch --all
+ 1084  git checkout main
+ 1085  git branch -D feature/map
+ 1086  clçear
+ 1087  clear
+ 1088  git fetch --all
+ 1089  git checkout feature/
+ 1090  git checkout feature/map
+ 1091  clear
+ 1092  docker ps
+ 1093  ./bin/dev
+ 1094  rm config/credentials.yml.enc config/master.key
+ 1095  bin/rails credentials:edit
+ 1096  EDITOR=nano bin/rails credentials:edit
+ 1097  clear
+ 1098  ./bin/dev
+ 1099  bun i
+ 1100  clear
+ 1101  ./bin/dev
+ 1102  conda deactivate
+ 1103  cd ..
+ 1104  cd int-prog/inventory-management-system
+ 1105  clear
+ 1106  conda deactivate
+ 1107  clear
+ 1108  code .
+ 1109  make run
+ 1110  cd ..
+ 1111  tree inventory-management-system
+ 1112  sudo apt-get install libgtk-3-dev
+ 1113  make clean_apps
+ 1114  make clean
+ 1115  cd inventory-management-system
+ 1116  clear
+ 1117  make clean_apps
+ 1118  make clean
+ 1119  cd ..
+ 1120  tree inventory-management-system
+ 1121  clear
+ 1122  cd ..
+ 1123  tree int-prog/inventory-management-system
+ 1124  clear
+ 1125  tree int-prog/inventory-management-system
+ 1126  conty
+ 1127  tree int-prog/inventory-management-system
+ 1128  pkg-config --cflags gtk+-3.0\n
+ 1129  clear
+ 1130  make run
+ 1131  make libed
+ 1132  cd int-prog/inventory-management-system
+ 1133  make run
+ 1134  clear
+ 1135  make run
+ 1136  make myapps
+ 1137  cd ..
+ 1138  tree inventory-management-system
+ 1139  cd inventory-management-system\n
+ 1140  make libed
+ 1141  clear
+ 1142  make libed
+ 1143  make myapps
+ 1144  cd ..
+ 1145  tree inventory-management-system
+ 1146  clear
+ 1147  make libed
+ 1148  cd inventory-management-system
+ 1149  make libed
+ 1150  clear
+ 1151  make myapps
+ 1152  clear
+ 1153  make run
+ 1154  cd ..
+ 1155  tree inventory-management-system
+ 1156  make clean
+ 1157  clear
+ 1158  make cleclean_apps
+ 1159  make clean_apps
+ 1160  make libed
+ 1161  make myapps
+ 1162  make run
+ 1163  clear
+ 1164  make libed
+ 1165  make myapps
+ 1166  make run
+ 1167  make clean
+ 1168  make clean_apps
+ 1169  make libed
+ 1170  make myapps
+ 1171  make run
+ 1172  make libed
+ 1173  make myapps
+ 1174  make run
+ 1175  make libed
+ 1176  make myapps
+ 1177  make run
+ 1178  clear
+ 1179  make run
+ 1180  clear
+ 1181  make run
+ 1182  make libed
+ 1183  make myapps
+ 1184  make run
+ 1185  clear
+ 1186  make clean
+ 1187  make clean_apps
+ 1188  make libed
+ 1189  make myapps
+ 1190  make run
+ 1191  make clean
+ 1192  make clean_apps
+ 1193  make libed
+ 1194  make myapps
+ 1195  make run
+ 1196  make libed
+ 1197  make myapps
+ 1198  make run
+ 1199  make libed
+ 1200  make myapps
+ 1201  make run
+ 1202  make clean
+ 1203  make clean_apps
+ 1204  make libed
+ 1205  make myapps
+ 1206  make run
+ 1207  clear
+ 1208  make clean
+ 1209  make clean_apps
+ 1210  make libed
+ 1211  make myapps
+ 1212  make run
+ 1213  cleare
+ 1214  clear
+ 1215  make clean
+ 1216  make myapps
+ 1217  make clean
+ 1218  make clean_apps
+ 1219  make libed
+ 1220  make myapps
+ 1221  make libed
+ 1222  make myapps
+ 1223  make run
+ 1224  make libed
+ 1225  make myapps
+ 1226  make run
+ 1227  make clean
+ 1228  make clean_apps
+ 1229  make libed
+ 1230  make myapps
+ 1231  make run
+ 1232  make myapps
+ 1233  make clean_apps
+ 1234  make clean
+ 1235  make libed
+ 1236  make myapps
+ 1237  make run
+ 1238  make clean
+ 1239  make clean_apps
+ 1240  make libed
+ 1241  make myapps
+ 1242  make clean
+ 1243  make myapps
+ 1244  make clean
+ 1245  make clean_apps
+ 1246  make libed
+ 1247  make myapps
+ 1248  make run
+ 1249  clear
+ 1250  make libed
+ 1251  clear
+ 1252  make clean
+ 1253  make clean_apps
+ 1254  make libed
+ 1255  make myapps
+ 1256  make run
+ 1257  make libed
+ 1258  make myapps
+ 1259  make run
+ 1260  make clean
+ 1261  make clean_apps
+ 1262  make run
+ 1263  make libed
+ 1264  make myapps
+ 1265  make run
+ 1266  make clean
+ 1267  make clean_apps
+ 1268  make run
+ 1269  make libed
+ 1270  make myapps
+ 1271  make run
+ 1272  make myapps
+ 1273  make libed
+ 1274  make myapps
+ 1275  make run
+ 1276  make clean
+ 1277  make clean_apps
+ 1278  make libed
+ 1279  make clean_apps
+ 1280  make myapps
+ 1281  make libed
+ 1282  make myapps
+ 1283  make run
+ 1284  make libed
+ 1285  make myapps
+ 1286  make run
+ 1287  clear
+ 1288  make run
+ 1289  make libed
+ 1290  make myapps
+ 1291  make run
+ 1292  make libed
+ 1293  make myapps
+ 1294  make run
+ 1295  make libed
+ 1296  make clean_apps
+ 1297  make clean
+ 1298  make libed
+ 1299  make myapps
+ 1300  make run
+ 1301  make libed
+ 1302  make myapps
+ 1303  make run
+ 1304  make libed
+ 1305  make myapps
+ 1306  make run
+ 1307  make libed
+ 1308  make myapps
+ 1309  make run
+ 1310  make myapps
+ 1311  make run
+ 1312  make libed
+ 1313  make myapps
+ 1314  make run
+ 1315  make libed
+ 1316  make myapps
+ 1317  make run
+ 1318  make libed
+ 1319  make myapps
+ 1320  make run
+ 1321  make clean
+ 1322  make clean_apps
+ 1323  make libed
+ 1324  make myapps
+ 1325  make run
+ 1326  make myapps
+ 1327  make run
+ 1328  make myapps
+ 1329  make run
+ 1330  make clean
+ 1331  make clean_app
+ 1332  make libed
+ 1333  make myapps
+ 1334  make run
+ 1335  make clean
+ 1336  make clean_app
+ 1337  make libed
+ 1338  make myapps
+ 1339  make run
+ 1340  make libed
+ 1341  make myapps
+ 1342  make myappsclear
+ 1343  cclear
+ 1344  clear
+ 1345  make libed
+ 1346  make myappsclear
+ 1347  make myapps
+ 1348  make clean
+ 1349  make clean_app
+ 1350  make libed
+ 1351  make myapps
+ 1352  clear
+ 1353  make clean
+ 1354  make clean_app
+ 1355  make libed
+ 1356  make myapps
+ 1357  make run
+ 1358  clear
+ 1359  make run
+ 1360  make myapps
+ 1361  make run
+ 1362  make clean
+ 1363  make clean_app
+ 1364  make libed
+ 1365  make myapps
+ 1366  make run
+ 1367  make myapps
+ 1368  make run
+ 1369  clear
+ 1370  make run
+ 1371  OA
+ 1372  make run
+ 1373  make myapps
+ 1374  make run
+ 1375  make myapps
+ 1376  make run
+ 1377  make myapps
+ 1378  make run
+ 1379  git add .
+ 1380  git status
+ 1381  cd inventory-management-system
+ 1382  clear
+ 1383  git add .
+ 1384  git status
+ 1385  git commit -m 'nova estrutura'
+ 1386  git push
+ 1387  make run
+ 1388  conda deactivate
+ 1389  clear
+ 1390  cd Documentos/development/projects
+ 1391  code .
+ 1392  cd int-prog/inventory-management-system
+ 1393  clear
+ 1394  conda deactivate
+ 1395  clear
+ 1396  code .
+ 1397  make run
+ 1398  make libed
+ 1399  clear
+ 1400  make libed
+ 1401  make myapps
+ 1402  make run
+ 1403  make libed
+ 1404  make myapps
+ 1405  make run\n
+ 1406  make libed
+ 1407  make myapps
+ 1408  make libed
+ 1409  make myapps
+ 1410  make run\n
+ 1411  make libed
+ 1412  make myapps
+ 1413  make run\n
+ 1414  make libed
+ 1415  make myapps
+ 1416  make run\n
+ 1417  make libed
+ 1418  make myapps
+ 1419  make run\n
+ 1420  make libed
+ 1421  make myapps
+ 1422  make run\n
+ 1423  make libed
+ 1424  make myapps
+ 1425  make run\n
+ 1426  make myapps
+ 1427  make libed
+ 1428  make myapps
+ 1429  make run\n
+ 1430  make libed
+ 1431  make myapps
+ 1432  make run\n
+ 1433  make myapps
+ 1434  make run\n
+ 1435  make libed
+ 1436  make myapps
+ 1437  make run\n
+ 1438  make libed
+ 1439  make myapps
+ 1440  make run\n
+ 1441  make libed
+ 1442  make myapps
+ 1443  make run\n
+ 1444  make libed
+ 1445  make myapps
+ 1446  make run\n
+ 1447  make libed
+ 1448  make myapps
+ 1449  make run\n
+ 1450  clear
+ 1451  make run\n
+ 1452  make libed
+ 1453  make myapps
+ 1454  make run\n
+ 1455  make clean
+ 1456  make clean_app
+ 1457  make libed
+ 1458  make myapps
+ 1459  make run\n
+ 1460  make libed
+ 1461  make myapps
+ 1462  make run\n
+ 1463  make libed
+ 1464  make myapps
+ 1465  make run\n
+ 1466  make libed
+ 1467  make myapps
+ 1468  make run\n
+ 1469  make libed
+ 1470  make myapps
+ 1471  make run\n
+ 1472  clear
+ 1473  make myapps
+ 1474  make run\n
+ 1475  make libed
+ 1476  make myapps
+ 1477  make run\n
+ 1478  cd ..
+ 1479  tree inventory-management-system
+ 1480  make libed
+ 1481  cd inventory-management-system
+ 1482  make libed
+ 1483  make clean
+ 1484  make clean_app
+ 1485  make libed
+ 1486  make clean_app
+ 1487  make libed
+ 1488  clear
+ 1489  make libed
+ 1490  cd ..
+ 1491  tree inventory-management-system
+ 1492  make libed
+ 1493  make clean
+ 1494  make libed
+ 1495  make clean
+ 1496  make libed
+ 1497  make myapps
+ 1498  make run
+ 1499  make libed
+ 1500  make myapps
+ 1501  make run
+ 1502  make libed
+ 1503  make myapps
+ 1504  make run
+ 1505  make libed
+ 1506  make myapps
+ 1507  make run
+ 1508  make libed
+ 1509  make myapps
+ 1510  make run
+ 1511  make myapps
+ 1512  make libed
+ 1513  make myapps
+ 1514  make run
+ 1515  make libed
+ 1516  make myapps
+ 1517  make run
+ 1518  make myapps
+ 1519  make run
+ 1520  make libed
+ 1521  make myapps
+ 1522  make run
+ 1523  make libed
+ 1524  make myapps
+ 1525  make run
+ 1526  make libed
+ 1527  make myapps
+ 1528  make run
+ 1529  make libed
+ 1530  make myapps
+ 1531  make run
+ 1532  make clean
+ 1533  make clean_app
+ 1534  make libed
+ 1535  make myapps
+ 1536  make run
+ 1537  clear
+ 1538  make libed
+ 1539  make myapps
+ 1540  make run
+ 1541  make libed
+ 1542  make myapps
+ 1543  make libed
+ 1544  make myapps
+ 1545  make run
+ 1546  make libed
+ 1547  make myapps
+ 1548  make run
+ 1549  make libed
+ 1550  make myapps
+ 1551  make run
+ 1552  make libed
+ 1553  make myapps
+ 1554  make run
+ 1555  make libed
+ 1556  make myapps
+ 1557  make run
+ 1558  make libed
+ 1559  make myapps
+ 1560  make run
+ 1561  make libed
+ 1562  make myapps
+ 1563  make run
+ 1564  cd ../../
+ 1565  cd projects/
+ 1566  code .
+ 1567  make libed
+ 1568  make myapps
+ 1569  make libed
+ 1570  make run
+ 1571  make myapps
+ 1572  clear
+ 1573  make clean
+ 1574  make clean_app
+ 1575  make libed
+ 1576  make myapps
+ 1577  make libed
+ 1578  make myapps
+ 1579  make run
+ 1580  make libed
+ 1581  make myapps
+ 1582  make run
+ 1583  make libed
+ 1584  make myapps
+ 1585  make run
+ 1586  make libed
+ 1587  make myapps
+ 1588  make run
+ 1589  make libed
+ 1590  make myapps
+ 1591  make run
+ 1592  make libed
+ 1593  make myapps
+ 1594  make run
+ 1595  make libed
+ 1596  make myapps
+ 1597  make run
+ 1598  make libed
+ 1599  make myapps
+ 1600  make run
+ 1601  make libed
+ 1602  make myapps
+ 1603  make run
+ 1604  make libed
+ 1605  make myapps
+ 1606  make run
+ 1607  make libed
+ 1608  make myapps
+ 1609  make run
+ 1610  make libed
+ 1611  make myapps
+ 1612  make run
+ 1613  make libed
+ 1614  make myapps
+ 1615  make run
+ 1616  make libed
+ 1617  make myapps
+ 1618  make run
+ 1619  make libed
+ 1620  make myapps
+ 1621  make run
+ 1622  clear
+ 1623  make libed
+ 1624  make myapps
+ 1625  make run
+ 1626  CLEAR
+ 1627  clear
+ 1628  make libed
+ 1629  make myapps
+ 1630  make run
+ 1631  make libed
+ 1632  make myapps
+ 1633  make run
+ 1634  make libed
+ 1635  make myapps
+ 1636  make run
+ 1637  make libed
+ 1638  make myapps
+ 1639  make run
+ 1640  make libed
+ 1641  make myapps
+ 1642  make run
+ 1643  clear
+ 1644  make libed
+ 1645  make myapps
+ 1646  make libed
+ 1647  clear
+ 1648  make libed
+ 1649  make myapps
+ 1650  make libed
+ 1651  make myapps
+ 1652  make run
+ 1653  make libed
+ 1654  make myapps
+ 1655  make libed
+ 1656  make myapps
+ 1657  make run
+ 1658  make libed
+ 1659  make myapps
+ 1660  make run
+ 1661  make libed
+ 1662  make myapps
+ 1663  make run
+ 1664  make libed
+ 1665  make myapps
+ 1666  make run
+ 1667  make libed
+ 1668  make run
+ 1669  make libed
+ 1670  make myapps
+ 1671  make run
+ 1672  make libed
+ 1673  make myapps
+ 1674  make run
+ 1675  make libed
+ 1676  make myapps
+ 1677  make run
+ 1678  make libed
+ 1679  make myapps
+ 1680  make run
+ 1681  make libed
+ 1682  make myapps
+ 1683  make run
+ 1684  cd int-prog/inventory-management-system
+ 1685  clear
+ 1686  git add .
+ 1687  git status
+ 1688  git commit -m 'nova estrutura 2'
+ 1689  git púsh
+ 1690  git push
+ 1691  code .
+ 1692  conda deactivate
+ 1693  cd Documentos/development/projects
+ 1694  code .
+ 1695  cd int-prog/inventory-management-system
+ 1696  clear
+ 1697  git checkout feature/staging
+ 1698  clear
+ 1699  conda deactivate
+ 1700  clear
+ 1701  conda deactivate
+ 1702  clear
+ 1703  cd ..
+ 1704  cd stock-sys
+ 1705  clear
+ 1706  code .
+ 1707  make
+ 1708  ./bin/app
+ 1709  make clean
+ 1710  make clean_apps
+ 1711  make
+ 1712  make libed
+ 1713  make myapps
+ 1714  clear
+ 1715  make myapps
+ 1716  ./bin/app
+ 1717  git log --oneline
+ 1718  code .
+ 1719  git checkout -b feature/development_environment
+ 1720  git checkout -b feature/development-environment
+ 1721  git checkout feature/staging
+ 1722  git branc -D feature/development-environment
+ 1723  git branc -D feature/development_environment
+ 1724  git branch -D feature/development_environment
+ 1725  git branch -D feature/development-environment
+ 1726  clear
+ 1727  git checkout -b feature/development-environment
+ 1728  clear
+ 1729  git log --oneline
+ 1730  git add .
+ 1731  git status
+ 1732  git commit -m 'criado estrutura definitiva de diretorios do projeto'
+ 1733  clear
+ 1734  git push
+ 1735  git push --set-upstream origin feature/development-environment
+ 1736  git add .
+ 1737  git status
+ 1738  git add .
+ 1739  git status
+ 1740  git log --oneline
+ 1741  git commit -m 'Criado Makefile para automação da compilação da estrutura do projeto com GTK3'
+ 1742  git commit -m 'criado Makefile para automação da compilação da estrutura do projeto com GTK3' --amend
+ 1743  git push --force-with-lease
+ 1744  git fetch --all
+ 1745  git checkout -b feature/staging
+ 1746  git checkout feature/staging
+ 1747  clear
+ 1748  git pull
+ 1749  clear
+ 1750  git checkout -b feature/core-data-structures
+ 1751  clear
+ 1752  git add .
+ 1753  git status
+ 1754  git add .
+ 1755  git status
+ 1756  git commit -m 'adiciona definição da estrutura de product e casos de uso do service'
+ 1757  git push
+ 1758  git push --set-upstream origin feature/core-data-structures
+ 1759  git add .
+ 1760  git status
+ 1761  git commit -m 'adiciona definição da estrutura de stock e casos de uso do service'
+ 1762  git push
+ 1763  git add .
+ 1764  git commit -m 'adiciona definição da estrutura de utils e casos de uso do service'
+ 1765  git push
+ 1766  clear
+ 1767  git fetch --all
+ 1768  git checkout feature/staging
+ 1769  clear
+ 1770  git pull
+ 1771  git checkout -b feature/data-persistence
+ 1772  clear
+ 1773  git status
+ 1774  git log --oneline
+ 1775  tree data
+ 1776  git add .
+ 1777  git status
+ 1778  clear
+ 1779  git commit -m 'adiciona estrutura de arquivos para persistência de dados'
+ 1780  git push
+ 1781  git push --set-upstream origin feature/data-persistence
+ 1782  clear
+ 1783  git fetch --all
+ 1784  git checkout -b feature/staging
+ 1785  git checkout feature/staging
+ 1786  git pull
+ 1787  clear
+ 1788  git checkout -b feature/product-management
+ 1789  clear
+ 1790  git log --oneline
+ 1791  git add .
+ 1792  git status[
+ 1793  git status
+ 1794  git commit -m 'criado product_service e suas dependencias e actions init_products, product_add, product_update, product_delete, product_get_by_id, product_get_all, product_search'
+ 1795  clear
+ 1796  git push
+ 1797  git push --set-upstream origin feature/product-management
+ 1798  git add .
+ 1799  git status
+ 1800  git log --oneline
+ 1801  git commit -m 'criado product_dialog view para funções de create e edit product'
+ 1802  git push
+ 1803  git add .
+ 1804  clear
+ 1805  git status
+ 1806  git log --oneline
+ 1807  git commit -m 'criado product_list view com funções de search, delete e edit product'
+ 1808  git push
+ 1809  clear
+ 1810  git fetch --all
+ 1811  git checkout feature/staging
+ 1812  git pull
+ 1813  git checkout -b feature/stock-management
+ 1814  clear
+ 1815  git add .
+ 1816  git status
+ 1817  git log --oneline
+ 1818  git commit -m 'criado stock_service e suas dependencias e actions init_stock, stock_add, stock_update, stock_delete, stock_get_by_id, stock_get_all, stock_search'
+ 1819  git push
+ 1820  git push --set-upstream origin feature/stock-management
+ 1821  clear
+ 1822  git add .
+ 1823  git status
+ 1824  git log --oneline
+ 1825  git commit -m 'criado stock_dialog view para funções de create e edit stock'\n'
+ 1826  git commit -m 'criado stock_dialog view para funções de create e edit stock'
+ 1827  git push
+ 1828  clear
+ 1829  git add .
+ 1830  git status
+ 1831  git log --oneline
+ 1832  git commit -m 'criado stock_list view com funções de search, delete e edit stock'\n
+ 1833  clear
+ 1834  git push
+ 1835  git fetch --all
+ 1836  git checkout feature/staging
+ 1837  git pull
+ 1838  clear
+ 1839  git checkout -b feature/reporting
+ 1840  git add .
+ 1841  git status
+ 1842  git add .
+ 1843  git status[
+ 1844  git status
+ 1845  clear
+ 1846  git log --oneline
+ 1847  git commit -m 'criado report_service e suas dependencias e actions report_out_of_stock_products, report_products_by_location, report_recent_products, report_products_by_category, report_stock_valuation'
+ 1848  git add .
+ 1849  git status
+ 1850  git log --oneline
+ 1851  git push
+ 1852  git push --set-upstream origin feature/reporting
+ 1853  clear
+ 1854  git add .
+ 1855  git status
+ 1856  git log --oneline
+ 1857  gireport_out_of_stock_products, report_products_by_location, report_recent_products, report_products_by_category, report_stock_valuation
+ 1858  git commit -m 'criado report_view com funções de vizualização de report_out_of_stock_products, report_products_by_location, report_recent_products, report_products_by_category, report_stock_valuation'
+ 1859  git push
+ 1860  clear
+ 1861  git fetch --all
+ 1862  git checkout feature/staging
+ 1863  git pull
+ 1864  git log --oneline
+ 1865  git checkout -b feature/layout-view
+ 1866  git checkout -
+ 1867  git checkout -b feature/layout
+ 1868  git checkout -
+ 1869  clear
+ 1870  git add .
+ 1871  git status
+ 1872  git commit -m 'criado main_layout com navegação de layout para dashboard, products, stock, e reports views'
+ 1873  git push
+ 1874  git push --set-upstream origin feature/layout
+ 1875  clear
+ 1876  git add .
+ 1877  git status
+ 1878  git commit -m 'criado stylesheet/style.css com estilos para layout, headerbar, lists, buttons, dialogs, e reports section'
+ 1879  git push
+ 1880  clear
+ 1881  git fetch --all
+ 1882  git checkout feature/staging
+ 1883  clear
+ 1884  git pull
+ 1885  git checkout -b feature/dashboard
+ 1886  git add .
+ 1887  git status
+ 1888  clear
+ 1889  git commit -m 'criado dashboard view com relatorio dos products, stock, and reports'
+ 1890  git push
+ 1891  git push --set-upstream origin feature/dashboard
+ 1892  git fetch --all
+ 1893  clear
+ 1894  git fetch --all
+ 1895  git checkout feature/staging
+ 1896  git pull
+ 1897  clear
+ 1898  git checkout feature/main-application
+ 1899  git checkout -b feature/main-application
+ 1900  git add .
+ 1901  git status
+ 1902  clear
+ 1903  git status
+ 1904  git commit -m 'criado a inegração em main_application onde e carregado inventory management system'
+ 1905  git push
+ 1906  git push --set-upstream origin feature/main-application
+ 1907  clear
+ 1908  git fetch --all
+ 1909  git checkout feature/staging
+ 1910  clear
+ 1911  git pull
+ 1912  git checkout feature/documentation
+ 1913  git checkout -b feature/documentation
+ 1914  git add .
+ 1915  git status
+ 1916  git commit -m 'adicionado documentação do projeto em README.md com setup, structure, features, configuration e compilation'
+ 1917  git push
+ 1918  git push --set-upstream origin feature/documentation
+ 1919  cklea
+ 1920  clear
+ 1921  git fetch --all
+ 1922  git checkout feature/staging
+ 1923  git pull
+ 1924  clear
+ 1925  make
+ 1926  make libed
+ 1927  clear
+ 1928  make myapps
+ 1929  clear
+ 1930  git checkout -b feature/seed
+ 1931  git add .
+ 1932  git status
+ 1933  git commit -m 'criado seed service para popular o banco local com products e stoks com base em CSV'
+ 1934  git push
+ 1935  git push --set-upstream origin feature/seed
+ 1936  clear
+ 1937  git fetch --all
+ 1938  git checkout -
+ 1939  clear
+ 1940  git pull
+ 1941  make myapps
+ 1942  make clean
+ 1943  make libed
+ 1944  clear
+ 1945  make myapps
+ 1946  ./bin/app
+ 1947  make
+ 1948  clear
+ 1949  ./bin/app
+ 1950  git add .
+ 1951  git status
+ 1952  clear
+ 1953  git branch --re
+ 1954  git branch --remotes
+ 1955  clwar
+ 1956  clear
+ 1957  git branch --remotes
+ 1958  conda deactivate
+ 1959  clear
+ 1960  cd Documentos/development/projects/int-prog/inventory-management-system
+ 1961  clear
+ 1962  git fetch --all
+ 1963  clear
+ 1964  ./bin/app
+ 1965  code .
+ 1966  conda deactivate
+ 1967  clear
+ 1968  git fetch --all
+ 1969  make libed
+ 1970  make myapps
+ 1971  ./bin/app
+ 1972  make seed
+ 1973  make run
+ 1974  conda deactivate
+ 1975  clear
+ 1976  cd Documentos/development/projects/backend/
+ 1977  ll
+ 1978  mkdir python-django
+ 1979  clear
+ 1980  cd python-django
+ 1981  clear
+ 1982  cd fc3-admin-do-catalogo-python
+ 1983  clear
+ 1984  cd ..
+ 1985  code .
+ 1986  clear
+ 1987  cd backend/python-django/fc3-admin-do-catalogo-python
+ 1988  clear
+ 1989  conda deactivate
+ 1990  clear
+ 1991  git checkout staging
+ 1992  git pull
+ 1993  git branch --remotes
+ 1994  git checkout feature/creating-category-entity
+ 1995  clear
+ 1996  code .
+ 1997  docker-compose up -d --build
+ 1998  clear
+ 1999  docker ps
+ 2000  pdm init
+ 2001  pip install pdm\n
+ 2002  pip3 install pdm\n
+ 2003  clear
+ 2004  sudo apt update -y\nsudo apt upgrade -y
+ 2005  sudo apt install git curl build-essential dkms perl wget -y\nsudo apt install gcc make default-libmysqlclient-dev libssl-dev -y\nsudo apt install -y zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev llvm \\n  libncurses5-dev libncursesw5-dev \\n  xz-utils tk-dev libffi-dev liblzma-dev python3-openssl git
+ 2006  curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash\n
+ 2007  clear
+ 2008  python3 -v
+ 2009  clear
+ 2010  python3 --v
+ 2011  python3 -version
+ 2012  python3 version
+ 2013  python3 -v
+ 2014  sudo find /usr/lib/python3.12 -name "*.pyc" -delete\n
+ 2015  python3 -v
+ 2016  sudo python3
+ 2017  cleart
+ 2018  clear
+ 2019  python3
+ 2020  clear
+ 2021  pip install --user pdm\n
+ 2022  python3 -m pip --version\n\n
+ 2023  python3 -m ensurepip --default-pip\n
+ 2024  python3 -m pip --version\n
+ 2025  pip install pip
+ 2026  python3 -m ensurepip --upgrade\n
+ 2027  sudo apt update\nsudo apt install python3-pip -y\n
+ 2028  python3 -m pip --version\n
+ 2029  pip3 -v
+ 2030  clear
+ 2031  pip install pdm\n
+ 2032  pip3 install pdm\n
+ 2033  python3 -m venv venv\nsource venv/bin/activate
+ 2034  apt install python3.12-venv\n
+ 2035  sudo apt install python3.12-venv\n
+ 2036  pip3 install pdm\n
+ 2037  source venv/bin/activate
+ 2038  clear
+ 2039  curl -sSL https://pdm-project.org/install-pdm.py | python3 -
+ 2040  clear
+ 2041  pdm init
+ 2042  curl -sSL https://pdm-project.org/install-pdm.py | python3 -
+ 2043  python3 pdm init
+ 2044  python3 run pdm init
+ 2045  python3 pdm init
+ 2046  sudo python3 pdm init
+ 2047  pip install --user pdm
+ 2048  pip3 install --user pdm
+ 2049  python3 -m venv .venv
+ 2050  python3 -m venv venv
+ 2051  pdm init
+ 2052  source .venv/bin/activate
+ 2053  source venv/bin/activate
+ 2054  pdm init
+ 2055  cd Documentos/development/projects/backend/python-django/fc3-admin-do-catalogo-python/
+ 2056  clear
+ 2057  conda deactivate
+ 2058  clear
+ 2059  pdm init
+ 2060  pdm -v
+ 2061  source ~/.zshrc
+ 2062  conda deactivate
+ 2063  deactivate
+ 2064  clear
+ 2065  echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc\nsource ~/.zshrc
+ 2066  clear
+ 2067  pdm -v
+ 2068  clear
+ 2069  pdm init
+ 2070  clear
+ 2071  conda deactivate
+ 2072  clear
+ 2073  pdm init
+ 2074  clear
+ 2075  pdm init
+ 2076  clear
+ 2077  conda deactivate
+ 2078  clear
+ 2079  python3 src/core/category/domain/entities.py
+ 2080  pdm run python3 src/core/category/domain/entities.py
+ 2081  cd ..
+ 2082  tree fc3-admin-do-catalogo-python
+ 2083  pdm run python3 src/core/category/domain/entities.py\n
+ 2084  cd fc3-admin-do-catalogo-python
+ 2085  clear
+ 2086  ➜ pdm run python3 src/core/category/domain/entities.py\n\n[ProjectError]: The pyproject.toml has not been initialized yet. You can do this by running \n`pdm init`.\n\n
+ 2087  pdm run python3 src/core/category/domain/entities.py\n
+ 2088  pip install django-environ\n
+ 2089  pip3 install django-environ\n
+ 2090  pdm run pip3 install django-environ\n
+ 2091  pdm run pip install django-environ\n
+ 2092  python3 -m venv venv\n
+ 2093  pip3 install django-environ\n
+ 2094  pip install django-environ\n
+ 2095  clear
+ 2096  pip install django-environ\n
+ 2097  pip install django-environ
+ 2098  source venv/bin/activate
+ 2099  pip install django-environ
+ 2100  pdm venv ctivate
+ 2101  pdm venv activate
+ 2102  clear
+ 2103  deactivate
+ 2104  clear
+ 2105  pdm venv create
+ 2106  pdm add django-environ\n
+ 2107  pdm remove django-environ\n
+ 2108  clear
+ 2109  pdm run
+ 2110  clear
+ 2111  docker ps
+ 2112  docker-compose exec app bash
+ 2113  docker-compose exec app_1 bash
+ 2114  docker ps
+ 2115  docker-compose up -d --build
+ 2116  clear
+ 2117  docker-compose exec app bash
+ 2118  clear
+ 2119  cd ..
+ 2120  tree fc3-admin-do-catalogo-python
+ 2121  cd fc3-admin-do-catalogo-python
+ 2122  python3 src/core/category/domain/entities.py
+ 2123  python3 core/category/domain/entities.py
+ 2124  pwd
+ 2125  cd ..
+ 2126  tree fc3-admin-do-catalogo-python
+ 2127  cd fc3-admin-do-catalogo-python
+ 2128  pdm shell
+ 2129  pdm activate
+ 2130  pdm activatepython3 src/core/category/domain/entities.py
+ 2131  python3 src/core/category/domain/entities.py
+ 2132  from ..__seedwork.domain.entities import Entity
+ 2133  python3
+ 2134  clear
+ 2135  cd ..
+ 2136  tree fc3-admin-do-catalogo-python
+ 2137  cd 'fc3-admin-do-catalogo-python\nclear
+ 2138  clear
+ 2139  cd fc3-admin-do-catalogo-python
+ 2140  clear
+ 2141  python3 src/core/category/domain/entities.py
+ 2142  pwd\n
+ 2143  python3 /home/alex-cndd/Documentos/development/projects/backend/python-django/fc3-admin-do-catalogo-python/src/core/category/domain/entities.py\n
+ 2144  echo $PYTHONPATH\n
+ 2145  pdm venv activate\n
+ 2146  pdm use python3.10\n
+ 2147  python3 -v
+ 2148  sudo python3 -v
+ 2149  clear
+ 2150  pdm activate
+ 2151  pdm venv activate
+ 2152  pdm install
+ 2153  pdm venv activate
+ 2154  python3 src/core/category/domain/entities.py
+ 2155  pdm install\n
+ 2156  python3 -v \n
+ 2157  python3 --v\n
+ 2158  python3 version\n
+ 2159  python3 --version\n
+ 2160  pdm use python3.12.3\n
+ 2161  python3.12 --version\n
+ 2162  pdm use python3.12\n
+ 2163  clear
+ 2164  pdm run python3 src/core/category/domain/entities.py
+ 2165  PYTHONPATH=$PYTHONPATH:/home/alex-cndd/Documentos/development/projects/backend/python-django/fc3-admin-do-catalogo-python/src pdm run python3 src/core/category/domain/entities.py\n
+ 2166  pdm run python3 src/core/category/domain/entities.py\n
+ 2167  pdm install\n
+ 2168  pdm info --env\n
+ 2169  pdm run python3 -m core.category.domain.entities\n
+ 2170  pdm run python3 core.category.domain.entities\n
+ 2171  pdm run python3 -m core.category.domain.entities\n
+ 2172  clear
+ 2173  python3
+ 2174  clear
+ 2175  docker-compose exec app bash
+ 2176  clear
+ 2177  python3 -m unittest
+ 2178  clear
+ 2179  python3 -m unittest
+ 2180  python3 -m unittest src/core/category/tests/unit/domain/test_unit_entities.py
+ 2181  python3 -m unittest core.catagory.tests.unit.domain.test_unit_entities
+ 2182  pdm run python3 -m unittest core.catagory.tests.unit.domain.test_unit_entities
+ 2183  pdm run -m python3 -m unittest core.catagory.tests.unit.domain.test_unit_entities
+ 2184  history | grep pdm
+ 2185  pdm run -m python3 unittest core.catagory.tests.unit.domain.test_unit_entities
+ 2186  pdm run -m python3 -m unittest core.catagory.tests.unit.domain.test_unit_entities
+ 2187  pdm run python3 -m unittest core.catagory.tests.unit.domain.test_unit_entities
+ 2188  pdm run python3 -m unittest core.category.tests.unit.domain.test_unit_entities\n
+ 2189  python3 -m unittest core.category.tests.unit.domain.test_unit_entities\n
+ 2190  export PYTHONPATH=$PYTHONPATH:/home/alex-cndd/Documentos/development/projects/backend/python-django/fc3-admin-do-catalogo-python/src\npython3 -m unittest core.category.tests.unit.domain.test_unit_entities\n
+ 2191  pdm venv create
+ 2192  clear
+ 2193  python3 -m unittest core.category.tests.unit.domain.test_unit_entities\n
+ 2194  clear
+ 2195  pdm venv create
+ 2196  python3 -m unittest core.category.tests.unit.domain.test_unit_entities\n
+ 2197  clear
+ 2198  python3 -m unittest core.category.tests.unit.domain.test_unit_entities\n
+ 2199  clear
+ 2200  sudo apt install asdf
+ 2201  pdm run python3 -m core.category.domain.entities\n
+ 2202  pdm fix\n
+ 2203  pdm run python3 -m core.category.domain.entities\n
+ 2204  python3 -m core.category.domain.entities\n
+ 2205  python3 test.py
+ 2206  clear
+ 2207  git add .
+ 2208  git status
+ 2209  git log --oneline
+ 2210  git commit -m 'trabalhado estrutura do projeto com pdm'
+ 2211  git push
+ 2212  clear
+ 2213  conda deactivate
+ 2214  cd Documentos/development/projects/
+ 2215  code .
+ 2216  cd backend/python-django/fc3-admin-do-catalogo-python/
+ 2217  clear
+ 2218  conda deactivate
+ 2219  clear
+ 2220  code .
+ 2221  git fetch --all
+ 2222  git branch --remotes
+ 2223  git checkout master
+ 2224  git checkout -
+ 2225  git branch -D master
+ 2226  git checkout -
+ 2227  git checkout master
+ 2228  git pull
+ 2229  git checkout -b feature/creating-entity-category-validation
+ 2230  clear
+ 2231  git add .
+ 2232  git status
+ 2233  git log --oneline
+ 2234  git commit -m 'adiciona estrutura de diretorios e arquivos de tests esperados'
+ 2235  git push
+ 2236  git push --set-upstream origin feature/creating-entity-category-validation
+ 2237  git log --oneline
+ 2238  pdm install
+ 2239  conda deactivate
+ 2240  clear
+ 2241  cd Documentos/development/projects/backend/python-django/fc3-admin-do-catalogo-python/
+ 2242  clear
+ 2243  conda deactivate
+ 2244  clear
+ 2245  cd ..
+ 2246  code .
+ 2247  cd backend/python-django/fc3-admin-do-catalogo-python
+ 2248  clear
+ 2249  codec .
+ 2250  code .
+ 2251  pdm run python3 -m unnitest core.category.tests.unit.domain.test_unit_entities
+ 2252  ➜ pdm run python3 -m unittest core.category.tests.unit.domain.test_unit_entities\n
+ 2253  pdm run python3 -m unittest core.category.tests.unit.domain.test_unit_entities\n
+ 2254  git add .
+ 2255  git status
+ 2256  git log --oneline
+ 2257  git commit -m 'test unitario verificando validators em src/core/__seedwork/tests/unit/domain/test_unit_validators.py'
+ 2258  git push
+ 2259  git add .
+ 2260  git status
+ 2261  git log --oneline
+ 2262  git commit -m 'test unitario verificando validators em src/core/category/tests/unit/domain/test_unit_validators.py'
+ 2263  git add ,
+ 2264  git add .
+ 2265  git status
+ 2266  git commit -m 'test inegração verificando entities em src/core/category/tests/integration/domain/test_int_entities.py'
+ 2267  pdm add djangorestframework
+ 2268  pdm run python3 -m unnitest core.category.tests.unit.domain.test_unit_entities
+ 2269  ➜ pdm run python3 -m unittest core.category.tests.unit.domain.test_unit_entities\n
+ 2270  conda deactivate
+ 2271  clear
+ 2272  cd Documentos/development/projects/
+ 2273  code .
+ 2274  cd backend/python-django/fc3-admin-do-catalogo-python
+ 2275  clear
+ 2276  conda deactivate
+ 2277  clear
+ 2278  code .
+ 2279  pdm install
+ 2280  pdm venv activate
+ 2281  pdm info\n
+ 2282  rm -rf .venv\npdm install\n
+ 2283  pdm venv activate
+ 2284  pdm venv create
+ 2285  pdm install
+ 2286  git add .
+ 2287  git status
+ 2288  git log --oneline
+ 2289  git commit -m 'test integração verificando valiadtors em src/core/__seedwork/tests/integration/domain/test_init_validators.py'
+ 2290  git push
+ 2291  pip install djangorestframework
+ 2292  pip3 install djangorestframework
+ 2293  pdm run pip3 install djangorestframework
+ 2294  clear
+ 2295  pdm install
+ 2296  pdm run format
+ 2297  clear
+ 2298  pdm venv remove
+ 2299  pdm venv delete
+ 2300  pdm venv -h
+ 2301  pdm venv remove
+ 2302  pdm venv remove -h
+ 2303  pdm venv remove -y
+ 2304  pdm venv remove -q
+ 2305  pdm venv remove -f
+ 2306  pdm venv remove
+ 2307  rm -rf .venv\npdm install\n
+ 2308  rm -rf .venv\n
+ 2309  clear
+ 2310  pdm venv create
+ 2311  pdm install
+ 2312  pwd
+ 2313  rm -rf .venv\n
+ 2314  pdm venv create
+ 2315  pdm install
+ 2316  pdm venv activate
+ 2317  pdm install
+ 2318  cd ..
+ 2319  tree fc3-admin-do-catalogo-python
+ 2320  pdm list | grep djangorestframework\n
+ 2321  pdm add djangorestframework\n
+ 2322  cd fc3-admin-do-catalogo-python
+ 2323  pdm list | grep djangorestframework\n
+ 2324  pdm activate\n
+ 2325  pdm venv activate\n
+ 2326  /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2327  clear
+ 2328  git add .
+ 2329  git status
+ 2330  git commit -m 'atualizado configurações de settings.json'
+ 2331  git push
+ 2332  clear
+ 2333  conda deactivate
+ 2334  clear
+ 2335  cd Documentos/development/projects/
+ 2336  code .
+ 2337  cd backend/python-django/fc3-admin-do-catalogo-python
+ 2338  clear
+ 2339  conda deactivate
+ 2340  clear
+ 2341  git fetch --all
+ 2342  git branch --remotes
+ 2343  git checkout feature/creating-entity-category-repository
+ 2344  git checkout .
+ 2345  git checkout feature/creating-entity-category-repository
+ 2346  clear
+ 2347  code .
+ 2348  /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2349  xdg-open doc
+ 2350  git branch -D master
+ 2351  git checkout master
+ 2352  git branch -D feature/creating-entity-category-repository
+ 2353  git checkout feature/creating-entity-category-repository
+ 2354  clear
+ 2355  git pul]
+ 2356  git pull
+ 2357  /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2358  git log --oneline
+ 2359  git add .
+ 2360  git status
+ 2361  git add .
+ 2362  git status
+ 2363  git commit -m 'Criando abstração para implementação dos repositórios'
+ 2364  git push
+ 2365  git add .
+ 2366  git status
+ 2367  git log --oneline
+ 2368  git commit -m 'test unitario verificando repositories em src/core/__seedwork/tests/unit/domain/test_unit_repositories.py'
+ 2369  git push
+ 2370  git add .
+ 2371  git status
+ 2372  conda deactivate
+ 2373  clea
+ 2374  cd Documentos/development/projects
+ 2375  code .
+ 2376  cd backend/python-django/fc3-admin-do-catalogo-python
+ 2377  clear
+ 2378  git pull
+ 2379  git fetch --all
+ 2380  git branch -D master
+ 2381  /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2382  git branch --remotes
+ 2383  git checkout feature/creating-entity-category-use-cases
+ 2384  git checkout .
+ 2385  git checkout feature/creating-entity-category-use-cases
+ 2386  code .
+ 2387  /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2388  git checkout feature/creating-entity-category-use-cases
+ 2389  clear
+ 2390  conda deactivate
+ 2391  clear
+ 2392  git add .
+ 2393  git status
+ 2394  git commit -m 'criando caso de uso de listagem de categorias'
+ 2395  git push
+ 2396  git log --oneline
+ 2397  git add .
+ 2398  git status
+ 2399  git commit -m 'teste abstração para input e output de listagem de casos de uso'
+ 2400  git push
+ 2401  clear
+ 2402  pdm add pytest-cov
+ 2403  pdm remove pytest-cov
+ 2404  pdm add pytest-cov --dev
+ 2405  pdm run test_cov_html
+ 2406  pdm run pytest --ignore __pylackages --cov ./src
+ 2407  pdm run pytest --ignore __pylackages --cov ./src --cov-report html
+ 2408  clear
+ 2409  git add .
+ 2410  git status
+ 2411  git log --oneline
+ 2412  git commit -m 'criando caso de uso de atualização de categoria'
+ 2413  git push
+ 2414  clear
+ 2415  pdm run pep8
+ 2416  pdm run format
+ 2417  git add .
+ 2418  git status
+ 2419  git commit -m 'criando caso de uso de deletar categoria'
+ 2420  git push
+ 2421  git checkout master
+ 2422  git stash
+ 2423  git checkout master
+ 2424  git checkout -
+ 2425  git branch -D master
+ 2426  git fetch --all
+ 2427  git checkout master
+ 2428  git pull
+ 2429  git checkout -b feature/integration-application-core-with-django
+ 2430  clear
+ 2431  git stash pop
+ 2432  clear
+ 2433  pdm add django
+ 2434  pdm add djangorestframework
+ 2435  pdm add markdown
+ 2436  pdm add django-filter
+ 2437  clear
+ 2438  pdm install
+ 2439  cd src/
+ 2440  pdm run django-admin startproject django_app
+ 2441  pdm run django-admin startproject ./src django_app
+ 2442  pdm run django-admin startproject src django_app
+ 2443  cd ..
+ 2444  pdm run django-admin startproject src django_app
+ 2445  pdm run django-admin startproject django_app src
+ 2446  clear
+ 2447  pdm run django-admin startapp app src
+ 2448  pdm run django-admin startapp src app
+ 2449  pdm run django-admin startapp ./src app
+ 2450  cd src/
+ 2451  cd django_app
+ 2452  pdm run django-admin startapp app
+ 2453  pdm run django-admin startapp app src
+ 2454  cd ..
+ 2455  pwd
+ 2456  cd cd ^[[200~/home/alex-cndd/Documentos/development/projects/backend/python-django/fc3-admin-do-catalogo-python
+ 2457  cd /home/alex-cndd/Documentos/development/projects/backend/python-django/fc3-admin-do-catalogo-python\n~
+ 2458  CLEAR
+ 2459  clear
+ 2460  ll
+ 2461  cd Documentos/development/projects/backend/python-django/fc3-admin-do-catalogo-python/
+ 2462  clear
+ 2463  pdm run django-admin startproject django_app src
+ 2464  pdm add django-extensions
+ 2465  git add ,
+ 2466  git add .
+ 2467  git status
+ 2468  git commit -m 'organizando o projeto Django e Core pastas dependências dockerfile e ambiente'
+ 2469  git push
+ 2470  git push --set-upstream origin feature/integration-application-core-with-djang
+ 2471  git push --set-upstream origin feature/integration-application-core-with-django
+ 2472  cd src/django_app
+ 2473  pdm run django-admin startapp category
+ 2474  clear
+ 2475  git log --oneline
+ 2476  git add .
+ 2477  git status
+ 2478  git add .
+ 2479  git status
+ 2480  git commit -m 'organizando o projeto Django e Core pastas dependências dockerfile e ambiente' --amend
+ 2481  git push --force-with-lease
+ 2482  /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2483  git add .
+ 2484  git status
+ 2485  git add .
+ 2486  git status
+ 2487  git commit -m 'organizando o projeto Django e Core pastas dependências dockerfile e ambiente' --amend
+ 2488  git push --force-with-lease
+ 2489  conda deactivate
+ 2490  clear
+ 2491  cd Documentos/development/projects
+ 2492  code .
+ 2493  cd backend/python-django/fc3-admin-do-catalogo-python
+ 2494  clear
+ 2495  conda deactivate
+ 2496  clear
+ 2497  code .
+ 2498  /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2499  git fetch --all
+ 2500  git branch -D master
+ 2501  git checkout master
+ 2502  git checkout .
+ 2503  git checkout master
+ 2504  clear
+ 2505  git checkout feature/integration-application-core-with-django
+ 2506  clear
+ 2507  git checkout -
+ 2508  git branch -D feature/integration-application-core-with-django
+ 2509  git checkout feature/integration-application-core-with-django
+ 2510  clear
+ 2511  git pull
+ 2512  history
+ 2513  xdg-open
+ 2514  xdg-open doc
+ 2515  pdm run runserver
+ 2516  pdm run manage migration
+ 2517  pdm run manage migrate
+ 2518  python manage.py showmigrations\n
+ 2519  pdm run manage showmigrations\n
+ 2520  pdm run manage createsuperuser\n
+ 2521  clear
+ 2522  git add .
+ 2523  git status
+ 2524  git log --oneline
+ 2525  git commit -m 'criando model category\n' --amend
+ 2526  git push --force-with-lease
+ 2527  clear
+ 2528  git
+ 2529  git branch -D master
+ 2530  git fetch --all
+ 2531  git checkout master
+ 2532  git checkout .
+ 2533  git checkout -
+ 2534  git pull
+ 2535  git checkout -b feature/creating-rest-api-category-in-memory
+ 2536  clear
+ 2537  git checkout .
+ 2538  /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2539  pdm run runserver
+ 2540  clear
+ 2541  pdm run runserver
+ 2542  pdm run manage
+ 2543  pdm run manage show_urls
+ 2544  pdm run manage shell
+ 2545  clear
+ 2546  pdm run manage shell_plus
+ 2547  clear
+ 2548  /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2549  git add .
+ 2550  conda deactivate
+ 2551  clear
+ 2552  cd Documentos/development/projects/backend/python-django/fc3-admin-do-catalogo-python
+ 2553  clear
+ 2554  conda
+ 2555  conda deactivate
+ 2556  clear
+ 2557  git status
+ 2558  git add .
+ 2559  git status
+ 2560  git commit -m 'organizando estrutura api rest de category'
+ 2561  git push
+ 2562  git push --set-upstream origin feature/creating-rest-api-category-in-memory
+ 2563  pdm add dependency_injector
+ 2564  pdm run runserver
+ 2565  pdm run manage runserver
+ 2566  pdm run runserver
+ 2567  pdm status
+ 2568  pdm info
+ 2569  clear
+ 2570  pdm venv create\n
+ 2571  pdm venv activate\n
+ 2572  pdm install
+ 2573  pdm run runserver
+ 2574  pdm install
+ 2575  pwd
+ 2576  pdm install
+ 2577  clear
+ 2578  pdm run runserver
+ 2579  git add .
+ 2580  git status
+ 2581  git commit -m 'usando container de servicos no Django'
+ 2582  git push
+ 2583  pdm add pytest-django
+ 2584  git add .
+ 2585  git status
+ 2586  git commit -m 'teste unitarios em controller api'
+ 2587  git push
+ 2588  conda deactivate
+ 2589  clear
+ 2590  cd Documentos/development/projects
+ 2591  code .
+ 2592  cd ..
+ 2593  cd projects/backend/python-django/fc3-admin-do-catalogo-python/
+ 2594  clear
+ 2595  conda deactivate
+ 2596  clear
+ 2597  conda deactivate
+ 2598  clear
+ 2599  code .
+ 2600  history
+ 2601  xdg-open doc
+ 2602  /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2603  pdm run runserver
+ 2604  git add .
+ 2605  git status
+ 2606  git commit -m 'criando API Rest de Categoria In Memory'
+ 2607  git push
+ 2608  git branch -D master
+ 2609  git fetch --all
+ 2610  git branch -D master
+ 2611  git checkout master
+ 2612  clear
+ 2613  git pull
+ 2614  git checkout -b feature/integration-django-orm-database
+ 2615  clear
+ 2616  pdm run runserver
+ 2617  git add .
+ 2618  git status
+ 2619  git commit -m 'criando tests model do Django ORM para categoria'
+ 2620  git push
+ 2621  git push --set-upstream origin feature/integration-django-orm-database
+ 2622  conda deactivate
+ 2623  clear
+ 2624  cd Documentos/development/projects/
+ 2625  clear
+ 2626  code .
+ 2627  cd backend/python-django/fc3-admin-do-catalogo-python
+ 2628  clear
+ 2629  git pull
+ 2630  conda deactivate
+ 2631  clear
+ 2632  git checkout
+ 2633  git checkout .
+ 2634  /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2635  git pull
+ 2636  clear
+ 2637  code .
+ 2638  bun i
+ 2639  pdm install
+ 2640  /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2641  pdm run runserver
+ 2642  git add .
+ 2643  git status
+ 2644  git log --oneline
+ 2645  git commit -m 'criando mapeador de entidade para model'
+ 2646  git push
+ 2647  cd ..
+ 2648  code .
+ 2649  cd backend/python-django/fc3-admin-do-catalogo-python
+ 2650  clear
+ 2651  code .
+ 2652  /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2653  git add .
+ 2654  git status
+ 2655  git commit -m 'teste mapeador de entidade para model'
+ 2656  git push
+ 2657  pdm add model-bakery --dev
+ 2658  pdm add faker --dev
+ 2659  /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2660  git add .
+ 2661  git status
+ 2662  git add .
+ 2663  git commit -m 'implementado metodos insert, find_by_id, find_all, update, delete e search em repositories'
+ 2664  git push
+ 2665  git add .
+ 2666  git status
+ 2667  git commit -m 'testes unitarios de repositories em test_unit_repositories'
+ 2668  git push
+ 2669  /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2670  pdm run runserver
+ 2671  git add .
+ 2672  git status
+ 2673  git commit -m 'testes de integracao de use cases em test_int_use_cases'
+ 2674  git push
+ 2675  conda deactivate
+ 2676  clear
+ 2677  cd Documentos/development/projects/
+ 2678  clear
+ 2679  code ,
+ 2680  code .
+ 2681  cd backend/python-django/fc3-admin-do-catalogo-python/
+ 2682  clear
+ 2683  conda deactivate
+ 2684  clear
+ 2685  git fetch --all
+ 2686  clear
+ 2687  code .
+ 2688  /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2689  git branch -D master
+ 2690  git checkout master
+ 2691  git checkout .
+ 2692  git checkout master
+ 2693  clear
+ 2694  /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2695  pdm install
+ 2696  docker ps
+ 2697  docker-compose up -d --build
+ 2698  cleaar
+ 2699  cleaarclear
+ 2700  docker-compose up -d --build
+ 2701  docker ps
+ 2702  docker remove 7b60a5bbcd30
+ 2703  docker down 7b60a5bbcd30
+ 2704  docker stop 7b60a5bbcd30
+ 2705  docker remove 7b60a5bbcd30
+ 2706  clear
+ 2707  docker ps
+ 2708  docker-compose up -d --build
+ 2709  clear
+ 2710  docker-compose down --volumes
+ 2711  docker volume rm fc3-admin-do-catalogo-python_pg_data
+ 2712  docker volumes
+ 2713  docker volums
+ 2714  docker volume ls\n
+ 2715  docker-compose up -d --build
+ 2716  docker ps
+ 2717  docker-compose up -d --build
+ 2718  docker volume rm fc3-admin-do-catalogo-python_pg_data
+ 2719  docker-compose down --volumes
+ 2720  docker-compose up -d --build
+ 2721  docker ps
+ 2722  psql -h 0.0.0.0 -p 5438 -U postgres
+ 2723  clear
+ 2724  pdm install
+ 2725  pdm run runserver
+ 2726  pdm run manage
+ 2727  pdm run runserver
+ 2728  tree src/django_app
+ 2729  clear
+ 2730  pdm run runserver
+ 2731  pdm venv create
+ 2732  pdm venv activate\n
+ 2733  pdm install
+ 2734  pdm run runserver
+ 2735  pdm manage migrate
+ 2736  docker ps
+ 2737  pdm manage migrate
+ 2738  pdm add dj-database-url
+ 2739  pdm add pydantic
+ 2740  pdm add python-dotenv
+ 2741  pdm add mysqlclient
+ 2742  pdm venv create
+ 2743  pdm install
+ 2744  sudo apt install clang
+ 2745  clear
+ 2746  pdm install
+ 2747  clear
+ 2748  pdm manage migrate
+ 2749  clear
+ 2750  pdm manage migrate
+ 2751  pdm manage migrate\n
+ 2752  clear
+ 2753  pdm manage migrate\n
+ 2754  clear
+ 2755  pdm manage migrate\n
+ 2756  pdm add psycopg[binary]
+ 2757  pdm add psycopg2-binary
+ 2758  pdm manage migrate\n
+ 2759  clear
+ 2760  pdm run runserver
+ 2761  lsof -i :8000\n
+ 2762  docker ps
+ 2763  pdm run runserver
+ 2764  history | grep pdm
+ 2765  qpdm run manage createsuperuser
+ 2766  pdm run manage createsuperuser
+ 2767  clear
+ 2768  pdm run runserver
+ 2769  pdm run django-admin shell
+ 2770  clear
+ 2771  history | grep shell
+ 2772  history | grep shell_plus
+ 2773  pdm run django-admin shell_plus
+ 2774  clear
+ 2775  pdm run django-admin shell_plus
+ 2776  history | grep shell
+ 2777  pdm run manage shell_plus\n
+ 2778  pdm run manage shell\n
+ 2779  clear
+ 2780  python3
+ 2781  clear
+ 2782  docker-compose exec app bash
+ 2783  clear
+ 2784  pdm run runserver
+ 2785  pdm install
+ 2786  clear
+ 2787  pdm run runserver
+ 2788  pdm run manage
+ 2789  pdm run migrate
+ 2790  pdm manage migrate
+ 2791  psql -h 0.0.0.0 -p 5438 -U postgres -d micro_videos\n
+ 2792  clear
+ 2793  pdm run runserver
+ 2794  pdm manage migrate
+ 2795  cler
+ 2796  clear
+ 2797  pdm run runserver
+ 2798  tree src/django_app
+ 2799  find . -name "*.pyc" -exec rm -f {} \;\n
+ 2800  pdm run runserver
+ 2801  pdm run manage shell
+ 2802  clear
+ 2803  pdm run runserver
+ 2804  pdm run manage shell
+ 2805  pdm run runserver
+ 2806  pdm add pydantic-settings
+ 2807  pdm run runserver
+ 2808  /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2809  clear
+ 2810  pdm run runserver
+ 2811  clear
+ 2812  pdm install
+ 2813  pdm run runserver
+ 2814  pdm venv create
+ 2815  pdm venv isntall
+ 2816  pdm install
+ 2817  pdm run runserver
+ 2818  pdm run runserverclear
+ 2819  clear
+ 2820  pdm run runserver
+ 2821  clear
+ 2822  pdm run runserver
+ 2823  clear
+ 2824  pdm run runserver
+ 2825  clear
+ 2826  git add .
+ 2827  git status
+ 2828  git log --oneline
+ 2829  git commit -m 'consolidado configurações do projeto' --amend
+ 2830  git push --force-with-lease
+ 2831  conda deactivate
+ 2832  clear
+ 2833  cd Documentos/development/projects/
+ 2834  clea
+ 2835  clear
+ 2836  code .
+ 2837  cd backend/python-django
+ 2838  clea
+ 2839  clear
+ 2840  git clone git@github.com:alex-candido/django-vercel-boilerplate.git
+ 2841  cd 'django-vercel-boilerplate
+ 2842  cd
+ 2843  cd Documentos/development/projects/backend/python-django/django-vercel-boilerplate
+ 2844  cleart
+ 2845  clear
+ 2846  code .
+ 2847  pdm create
+ 2848  pdm venv create
+ 2849  pdm install
+ 2850  /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2851  pdm install
+ 2852  pdm run server
+ 2853  pdm run manage collectstatic --noinput
+ 2854  clear
+ 2855  pdm run manage collectstatic --noinput
+ 2856  conda deactivate
+ 2857  clear
+ 2858  bun add -g vercel
+ 2859  vercel
+ 2860  pdm run server
+ 2861  clear
+ 2862  pdm run server
+ 2863  vercel
+ 2864  clear
+ 2865  pdm run server
+ 2866  clear
+ 2867  pdm run server
+ 2868  clear
+ 2869  pdm run server
+ 2870  clear
+ 2871  pdm run python3 src/django_app/config.py
+ 2872  clear
+ 2873  pdm run server
+ 2874  clear
+ 2875  vercel
+ 2876  clear
+ 2877  pdm run server
+ 2878  vercel
+ 2879  clear
+ 2880  pdm run server
+ 2881  clear
+ 2882  pdm run server
+ 2883  vercel
+ 2884  pdm run python3 src/django_app/config.py
+ 2885  clear
+ 2886  pdm run server
+ 2887  vercel
+ 2888  pdm run python3 src/django_app/config.py
+ 2889  git checkout .
+ 2890  git pull
+ 2891  clear
+ 2892  cd /
+ 2893  cd mnt
+ 2894  ll
+ 2895  conda deactivate
+ 2896  ll
+ 2897  cd ..
+ 2898  cd usr
+ 2899  ll
+ 2900  cd ..
+ 2901  cd home
+ 2902  ll
+ 2903  cd ..
+ 2904  cd e/
+ 2905  cd ~e/
+ 2906  cd ~mnt/
+ 2907  cd media/alex-cndd/SSD\ SATA
+ 2908  cd development/projects/backend/python-django/django-vercel-boilerplate
+ 2909  code .
+ 2910  conda deactivate
+ 2911  cd Documentos/development/projects/
+ 2912  code .
+ 2913  cd backend/python-django/django-vercel-boilerplate
+ 2914  clear
+ 2915  code .
+ 2916* /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2917* conda deactivate
+ 2918* history
+ 2919* pdm run manage collectstatic --noinput\n
+ 2920* pdm run python3 src/django_app/config.py
+ 2921* pdm run manage collectstatic --noinput\n
+ 2922* clear
+ 2923* pdm run server
+ 2924  vercel
+ 2925  pdm run manage collectstatic --noinput\n
+ 2926  pdm run python3 src/django_app/config.py
+ 2927* pdm run server
+ 2928* /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 2929* pdm venv create
+ 2930* pdm venv install
+ 2931* pdm install
+ 2932* pdm run server
+ 2933  history
+ 2934  pdm run manage collectstatic --noinput
+ 2935  clear
+ 2936* pdm run server
+ 2937* clear
+ 2938* pdm run server
+ 2939* pdm run manage migrate
+ 2940* pdm run manage createsuperuser
+ 2941* clear
+ 2942* pdm run server
+ 2943  pdm run manage collectstatic --noinput --clear
+ 2944  clear
+ 2945* pdm run server
+ 2946  vercel
+ 2947* cleare
+ 2948* clear
+ 2949* pdm run server
+ 2950* clear
+ 2951* pdm run server
+ 2952* clear
+ 2953* pdm run server
+ 2954* pdm run manage migrate
+ 2955* clear
+ 2956* pdm run server
+ 2957* clear
+ 2958* pdm run server
+ 2959  cd ..
+ 2960  tree django-vercel-boilerplate
+ 2961* pdm run server
+ 2962  pdm run python3 src/django_app/config.py
+ 2963  cd django-vercel-boilerplate
+ 2964  pdm run python3 src/django_app/config.py
+ 2965* pdm run server
+ 2966* clear
+ 2967* pdm run server
+ 2968* clear
+ 2969* pdm run server
+ 2970  git add .
+ 2971  git status
+ 2972  git log --oneline
+ 2973  git commit -m 'trabalhando compatilibidade de staticfiles build'
+ 2974  git push
+ 2975  clear
+ 2976  vercel
+ 2977  tree src
+ 2978  vercel
+ 2979* pdm run server
+ 2980  vercel
+ 2981* pdm run server
+ 2982  vercel
+ 2983  pdm add whitenoise
+ 2984  STATIC_ROOT = os.path.join(Path(__file__).resolve().parent.parent.parent, 'src', 'staticfiles_build', 'static')\n
+ 2985* pdm run server
+ 2986* clear
+ 2987* python3 manage.py collectstatic --noinput
+ 2988* python3 src/manage.py collectstatic --noinput
+ 2989* python3 src/django_app/manage.py collectstatic --noinput
+ 2990* python3 ./src/manage.py collectstatic --noinput
+ 2991* pdm run python3 ./src/manage.py collectstatic --noinput
+ 2992* clear
+ 2993* pdm run server
+ 2994  clear
+ 2995  vercel
+ 2996  history | grep require
+ 2997  history | grep requireemnts
+ 2998  history | grep requiremnts
+ 2999  history
+ 3000  pdm export -f requirements.txt --without-hashes
+ 3001* pdm export -f requirements -o requirements.txt --without-hashes\n
+ 3002* vercel
+ 3003* clear
+ 3004* vercel
+ 3005* pdm run server
+ 3006  pdm export -clearf requirements.txt --without-hashes
+ 3007  clear
+ 3008  pdm run manage createsuperuser
+ 3009  vercel
+ 3010  pdm run python3 ./src/django_app/config.py
+ 3011* clear
+ 3012* pdm run server
+ 3013  pdm run migrate
+ 3014  pdm run manage migrate
+ 3015  pdm run python3 ./src/django_app/config.py
+ 3016* clear
+ 3017* pdm run server
+ 3018  vercel
+ 3019  pdm run manage createsuperuser
+ 3020  vercel
+ 3021* /bin/python3 /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/alex-cndd/.vscode/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/zsh/envVars.txt
+ 3022  pdm add django-cors-headers
+ 3023* pdm run server
+ 3024  history | grep requiremnts
+ 3025  history | grep requirements
+ 3026  pdm export -clearf requirements.txt --without-hashes
+ 3027  pdm export -f requirements -o requirements.txt --without-hashes
+ 3028  clear
+ 3029  vercel
